@@ -14,7 +14,6 @@
     </header>
     <main role=main>
         <div style="padding-left:16px">
-
             <h3>Présentation du site</h3>
             <p>Sur ce site:</p>
             <ul>
