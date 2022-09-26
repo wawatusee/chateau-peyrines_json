@@ -1,0 +1,20 @@
+{
+	"Main menu":[
+		{
+			"page":"accueil",
+			"titre":"Accueil"
+		},
+		{
+			"page":"vins-tarifs",
+			"titre":"Tarifs des vins"
+		},
+		{
+			"page":"tournee",
+			"titre":"Tournée"
+		},
+		{
+			"page":"contact",
+			"titre":"Contacts"
+		}
+	]
+}

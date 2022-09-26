@@ -1,12 +1,7 @@
-<nav class="footerNav">
-    <?php 
-    
-    ?>
-</nav>
 <footer>
-    <div id="rs" class="rs">
-        <ul >
-            <li></li>
-        </ul>
+    <div class="footerNav">
+        <nav id="rs" class="rs"></nav>
+        <nav class="mainNav"></nav>
+        <nav class="extNav"></nav>
     </div>
 </footer>

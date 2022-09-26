@@ -1,3 +1,7 @@
+<?php
+ require_once("../config/config.php");
+?>
+
 <nav class="responsiveMenu" id="responsiveMenu">
         <a href="#accueil">Accueil</a>
         <a href="#Vins-tarifs">Vins-tarifs</a>
