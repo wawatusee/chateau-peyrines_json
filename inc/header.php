@@ -2,7 +2,6 @@
  require_once("../config/config.php");
  $menuMain_model=$menuMain;
  ?>
-
 <nav class="responsiveMenu" id="responsiveMenu">
         <?php foreach($menuMain_model as $item){
             echo "<a href=".$item->page.">".$item->titre."</a>";
