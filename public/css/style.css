@@ -64,3 +64,24 @@ body {
       text-align: left;
     }
   }
+  /*Catalogue*/
+  .showcase{
+    border:1px solid pink;
+    width: fit-content;
+    padding: 5px;
+  }
+  .prices{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .price{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .packaging{
+    background-color: #333;
+    color: bisque;
+  }
+

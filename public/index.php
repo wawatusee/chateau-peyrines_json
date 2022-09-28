@@ -28,29 +28,181 @@
             <h2>Tarifs des vins</h2>
             <section>
                 <h3>Vins Blancs et Rosé</h3>
-                <ul>
-                    <li>2021 Blanc Sec A.O.C Entre-Deux-Mers Haut Benauge</li>
-                    <li>2020 Blanc Moelleux A.O.C Bordeaux Haut Benauge</li>
-                    <li>2021 Rosé A.O.C Bordeaux</li>
-                    <li>Méthode Traditionnelle:''Les Bulles de Peyrines''</li>
-                </ul>
+                    <section class="showcase">
+                        <div class="product">
+                            <div class="desc" >
+                                2021 Blanc Sec A.O.C Entre-Deux-Mers Haut Benauge
+                            </div>
+                            <div class="prices">
+                                <div class="price">
+                                    <div class="packaging">+36btl</div>
+                                    <div class="cost">7.80 €</div>
+                                </div>
+                                <div class="price">
+                                    <div class="packaging">+60btl</div>
+                                    <div class="cost">7.50 €</div>
+                                </div>
+                                <div class="price">
+                                    <div class="packaging">+72btl</div>
+                                    <div class="cost">7.30 €</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="desc" >
+                                2020 Blanc Moelleux A.O.C Bordeaux Haut Benauge
+                            </div>
+                            <div class="prices">
+                                <div class="price">
+                                    <div class="packaging">+36btl</div>
+                                    <div class="cost">8.20 € </div>
+                                </div>
+                                <div class="price">
+                                    <div class="packaging">+60btl</div>
+                                    <div class="cost">7.90 €</div>
+                                </div>
+                                <div class="price">
+                                    <div class="packaging">+72btl</div>
+                                    <div class="cost">7.70 €</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="desc" >
+                                2021 Rosé A.O.C Bordeaux
+                            </div>
+                            <div class="prices">
+                                <div class="price">
+                                    <div class="packaging">+36btl</div>
+                                    <div class="cost">7.80 € </div>
+                                </div>
+                                <div class="price">
+                                    <div class="packaging">+60btl</div>
+                                    <div class="cost">7.50 €</div>
+                                </div>
+                                <div class="price">
+                                    <div class="packaging">+72btl</div>
+                                    <div class="cost">7.30 €</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="desc" >
+                                Méthode Traditionnelle:''Les Bulles de Peyrines''
+                            </div>
+                            <div class="prices">
+                                <div class="price">
+                                    <div class="packaging">+36btl</div>
+                                    <div class="cost">11.20 € </div>
+                                </div>
+                                <div class="price">
+                                    <div class="packaging">+60btl</div>
+                                    <div class="cost">10.90 €</div>
+                                </div>
+                                <div class="price">
+                                    <div class="packaging">+72btl</div>
+                                    <div class="cost">10.70 €</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
             </section>
             <section>
-                <h3>Vins Rouges</h3>
-                <ul>
-                    <li>2015 Rouge A.O.C Bordeaux Supérieur</li>
-                    <li>2016 Rouge A.O.C Bordeaux Supérieur </li>
-                    <li>Magnum (150cl) 2015 Rouge A.O.C Bordeaux Supérieur</li>
-                </ul>
-            </section>
+            <h3>Vins Rouges</h3>
+                <section class="showcase">
+                            <div class="product">
+                                <div class="desc" >
+                                    2015 Rouge A.O.C Bordeaux Supérieur
+                                </div>
+                                <div class="prices">
+                                    <div class="price">
+                                        <div class="packaging">+36btl</div>
+                                        <div class="cost">8.20 €</div>
+                                    </div>
+                                    <div class="price">
+                                        <div class="packaging">+60btl</div>
+                                        <div class="cost">7.90 €</div>
+                                    </div>
+                                    <div class="price">
+                                        <div class="packaging">+72btl</div>
+                                        <div class="cost">7.70 €</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="desc" >
+                                    2016 Rouge A.O.C Bordeaux Supérieur
+                                </div>
+                                <div class="prices">
+                                    <div class="price">
+                                        <div class="packaging">+36btl</div>
+                                        <div class="cost">8.10 € </div>
+                                    </div>
+                                    <div class="price">
+                                        <div class="packaging">+60btl</div>
+                                        <div class="cost">7.80 €</div>
+                                    </div>
+                                    <div class="price">
+                                        <div class="packaging">+72btl</div>
+                                        <div class="cost">7.60 €</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="desc" >
+                                    Magnum (150cl) 2015 Rouge A.O.C Bordeaux Supérieur
+                                </div>
+                                <div class="prices">
+                                    <div class="price">
+                                        <div class="packaging">Magnum</div>
+                                        <div class="cost">18.50 €</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                </section>
             <section>
-                <h3>Vin Rouge en vrac</h3>
-                <ul>
-                    <li>2018 Rouge A.O.C Bordeaux : Cubit de 22 litres</li>
-                    <li>Fontaine de 20 litres</li>
-                    <li>Fontaine de 10 litres</li>
-                </ul>
-
+            <h3>Vin Rouge en vrac</h3>
+                <section class="showcase">
+                            <div class="product">
+                                <div class="desc" >
+                                    2018 Rouge A.O.C Bordeaux par 1 ou 2 colis
+                                </div>
+                                <div class="prices">
+                                    <div class="price">
+                                        <div class="packaging">Cubit de 22 litres</div>
+                                        <div class="cost">99.00 €</div>
+                                    </div>
+                                    <div class="price">
+                                        <div class="packaging">Fontaine de 20 litres</div>
+                                        <div class="cost">90.00 €</div>
+                                    </div>
+                                    <div class="price">
+                                        <div class="packaging">Fontaine de 10 litres</div>
+                                        <div class="cost">46.00 €</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="desc" >
+                                    2018 Rouge A.O.C Bordeaux par 3 colis ou plus
+                                </div>
+                                <div class="prices">
+                                    <div class="price">
+                                        <div class="packaging">Cubit de 22 litres</div>
+                                        <div class="cost">84.70€</div>
+                                    </div>
+                                    <div class="price">
+                                        <div class="packaging">Fontaine de 20 litres</div>
+                                        <div class="cost">77.00 €</div>
+                                    </div>
+                                    <div class="price">
+                                        <div class="packaging">Fontaine de 10 litres</div>
+                                        <div class="cost">39.95 €</div>
+                                    </div>
+                                </div>
+                            </div>
+                </section>
             </section>
         </section>
         <section id="tournee">
