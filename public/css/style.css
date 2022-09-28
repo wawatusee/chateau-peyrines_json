@@ -11,6 +11,11 @@ body {
   body fera bien toute la hauteur de la surface d'affichage du navigateur*/
 
   }
+  /*Variables Colors*/
+  :root{
+    --main-bg-color:#333;
+    --main-clear-color:#ccc;
+  }
 /**********************/
   /*MENU*/
 /**********************/
@@ -22,7 +27,7 @@ body {
   .responsiveMenu a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: var(--main-clear-color);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -66,7 +71,7 @@ body {
   }
   /*Catalogue*/
   .showcase{
-    border:1px solid pink;
+    border:1px solid var(--main-clear-color);
     width: fit-content;
     padding: 5px;
   }
@@ -81,7 +86,12 @@ body {
     justify-content: space-around;
   }
   .packaging{
-    background-color: #333;
-    color: bisque;
+    background-color:var(--main-bg-color);
+    color: var(--main-clear-color);
+  }
+  /*Footer*/
+  footer{
+    background-color:var(--main-bg-color);
+    color:var(--main-clear-color);
   }
 

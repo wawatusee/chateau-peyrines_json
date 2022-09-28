@@ -1,5 +1,5 @@
 <?php 
 require_once("../model/model_menus.php");
 $titleWebSite="Chateau-Peyrines";
-$menuMain=getJSONSetMenu("../json/menus.json");
+$menuMain=getJSONSetMenu("../json/menus.json","Main_menu");
 $menuFooter=[];
