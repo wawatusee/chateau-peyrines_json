@@ -1,5 +1,5 @@
 <?php
-class Menus{
+class MenusModel{
     private $srcJson;
     private $menus;
     private $types;

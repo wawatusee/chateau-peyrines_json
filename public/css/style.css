@@ -15,9 +15,12 @@ body {
   :root{
     --main-bg-color:#333;
     --main-clear-color:#ccc;
+    --rs-bckgrnd-img:url("../img/menu_rs.png");
   }
 /**********************/
-  /*MENU*/
+  /*MENUS*/
+/**********************/
+  /*mainMenu*/
 /**********************/
   .responsiveMenu {
     overflow: hidden;
@@ -69,6 +72,14 @@ body {
       text-align: left;
     }
   }
+  /*RSmenu*/
+/**********************/
+#menuRS>a{
+  width:45px;
+  height: 45px;
+   background-image: var(--rs-bckgrnd-img);
+   background-position-x: -45px;
+}
   /*Catalogue*/
   .showcase{
     border:1px solid var(--main-clear-color);

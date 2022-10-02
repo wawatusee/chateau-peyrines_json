@@ -1,1 +1,1 @@
-<h1>Chateau Peyrines, Grands vins de Bordeaux</h1>
+<h1><?php echo $titleWebSite ?></h1>

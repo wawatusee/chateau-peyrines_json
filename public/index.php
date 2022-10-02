@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php require_once("../config/config.php");?>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
