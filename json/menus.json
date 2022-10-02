@@ -16,5 +16,15 @@
 			"page":"contact",
 			"titre":"Contacts"
 		}
+	],
+	"RS_menu":[
+		{
+			"page":"https://www.facebook.com/peyrines",
+			"titre":"FaceBook"
+		},
+		{
+			"page":"https://www.instagram.com/chateau_peyrines/",
+			"titre":"Instagram"
+		}
 	]
 }

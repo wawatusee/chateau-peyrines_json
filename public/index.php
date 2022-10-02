@@ -12,6 +12,9 @@
     <header>
         <?php require_once('../inc/header.php')?>
     </header>
+    <nav>
+        <?php require_once('../inc/nav.php')?>
+    </nav>
     <main role=main>
         <section id="accueil" style="padding-left:16px">
             <h2>Présentation du site</h2>
