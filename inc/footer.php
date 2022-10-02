@@ -1,13 +1,13 @@
 <footer>
     <div class="footerNav">
-        <nav id="menuRS" class="rs">Réseaux sociaux, genre:"Face book"
-        /*<?php var_dump($menuRS);
+        <nav id="menuRS" class="rs">
+        /*<?php 
                     foreach($menuRS as $item){
-                        echo "<a href=".$item->page.">".$item->titre."</a>";
+                        echo "<a href=".$item->page."><img src='img/logo-".$item->titre.".png'/>.</a>";
                     }
         ?>
         </nav>
-        <nav class="mainNav"></nav>
-        <nav class="extNav"></nav>
+        <nav class="mainNav">Reprise main nav</nav>
+        <nav class="extNav">Liens extérieurs</nav>
     </div>
 </footer>

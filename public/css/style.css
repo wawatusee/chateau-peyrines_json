@@ -72,14 +72,7 @@ body {
       text-align: left;
     }
   }
-  /*RSmenu*/
-/**********************/
-#menuRS>a{
-  width:45px;
-  height: 45px;
-   background-image: var(--rs-bckgrnd-img);
-   background-position-x: -45px;
-}
+
   /*Catalogue*/
   .showcase{
     border:1px solid var(--main-clear-color);
@@ -105,4 +98,9 @@ body {
     background-color:var(--main-bg-color);
     color:var(--main-clear-color);
   }
+    /*RSmenu*/
+/**********************/
+#menuRS{
+  background-color: white;
+}
 

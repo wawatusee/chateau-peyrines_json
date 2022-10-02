@@ -1,6 +1,6 @@
 <?php 
 require_once("../model/menus_model.php");
-$titleWebSite="Chateau-Peyrines";
+$titleWebSite="Chateau-Peyrines, grands vins de Bordeaux";
 $menus=new MenusModel("../json/menus.json");
-$menuMain=$menus->getMenu("Main_menu");
+
 $menuRS=$menus->getMenu("RS_menu");
