@@ -3,7 +3,7 @@
         <nav id="menuRS" class="rs">
         /*<?php 
                     foreach($menuRS as $item){
-                        echo "<a href=".$item->page."><img src='img/logo-".$item->titre.".png'/>.</a>";
+                        echo "<a href=".$item->page."><img src='img/logo-".$item->titre.".png'>.</a>";
                     }
         ?>
         </nav>
