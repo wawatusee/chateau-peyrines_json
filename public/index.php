@@ -35,7 +35,10 @@
                     <section class="showcase">
                         <div class="product">
                             <div class="desc" >
-                                2021 Blanc Sec A.O.C Entre-Deux-Mers Haut Benauge
+                                <details>
+                                    <summary>2021 Blanc sec  A.O.C Entre-deux-Mers Haut Benauge</summary>
+                                    <p>élaboré avec un assemblage des 3  cépages  sémillion, sauvignon, et muscadelle</p>
+                                </details>
                             </div>
                             <div class="prices">
                                 <div class="price">

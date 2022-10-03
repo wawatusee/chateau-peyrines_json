@@ -1,5 +1,27 @@
-for each wine we could use this sort of view for description of the wine:
-<details>
-<summary>Epcot Center</summary>
-<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
-</details>
+{
+    "catalog": [
+      {
+        "showroom": "Vins rouges",
+        "Products": [
+          {
+            "année": 2015,
+            "product": "Rouge A.O.C Bordeaux Supérieur ",
+            "packaging": [
+              {
+                "quantité": "+36 bouteilles",
+                "price": "7€80"
+              },
+              {
+                "quantité": "+60 bouteilles",
+                "price": "7€50"
+              },
+              {
+                "quantité": "+72 bouteilles",
+                "price": "7€70"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
