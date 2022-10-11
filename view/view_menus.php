@@ -7,4 +7,5 @@
         $viewMenu=$this->viewMenu;
         return $viewMenu;
     }
+
 }

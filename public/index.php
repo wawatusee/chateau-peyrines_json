@@ -18,6 +18,7 @@
     </nav>
     <main role=main>
         <section id="accueil" style="padding-left:16px">
+            <h1>Accueil</h1>
             <h2>Présentation du site</h2>
             <p>Sur ce site:</p>
             <ul>
@@ -29,7 +30,14 @@
             </ul>
         </section>
         <section id="vins-tarifs">
+            <h1>Catalogue</h1>
             <h2>Tarifs des vins</h2>
+            <?php require_once("../model/catalog_model.php");
+            $catalog=new CatalogModel("../json/catalog.json");
+            var_dump($catalog);
+            $tableauDesVitrines=$catalog->getCatalog();
+            var_dump($tableauDesVitrines);
+            ?>
             <section>
                 <h3>Vins Blancs et Rosé</h3>
                     <section class="showcase">
@@ -213,7 +221,7 @@
             </section>
         </section>
         <section id="tournee">
-            <h2>Tournée</h2>
+            <h1>Tournée</h1>
             <section>
                 
             </section>
