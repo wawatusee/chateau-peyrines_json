@@ -32,11 +32,19 @@
         <section id="vins-tarifs">
             <h1>Catalogue</h1>
             <h2>Tarifs des vins</h2>
-            <?php require_once("../model/catalog_model.php");
+            <?php
+            require_once("../model/catalog_model.php");
+            require_once("../view/catalog_view.php");
+            //Chargement du catalogue depuis la base de données
             $catalog=new CatalogModel("../json/catalog.json");
-            var_dump($catalog);
-            $tableauDesVitrines=$catalog->getCatalog();
-            var_dump($tableauDesVitrines);
+            $catalogueVins=$catalog->getCatalog();
+            var_dump($catalogueVins);
+            //T'en était là
+            $titre=$catalogueVins->catalog;
+            var_dump($titre);
+            echo $titre[0]->showroom;
+            $viewCatalog=new CatalogView;
+            /*$showRoomView=$viewCatalog->getView($tableauDesVitrines);*/
             ?>
             <section>
                 <h3>Vins Blancs et Rosé</h3>
