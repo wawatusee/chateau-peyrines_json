@@ -40,11 +40,12 @@
             var_dump($catalogueProducts);
             //Affichage du catalogue
             require_once("../view/catalog_view.php");
-            $categoryCatalog=$catalogueProducts->catalog;
-            var_dump($categoryCatalog);
-            echo $categoryCatalog[0]->showroom;
+            $categoriesCatalog=$catalogueProducts->catalog;
+            var_dump($categoriesCatalog);
+            echo $categoriesCatalog[0]->showroom;
             $viewCatalog=new CatalogView;
-            /*$showRoomView=$viewCatalog->getView($tableauDesVitrines);*/
+            $showRoomView=$viewCatalog->getView($categoriesCatalog);
+            echo $showRoomView;
             ?>
             <section>
                 <h3>Vins Blancs et Rosé</h3>

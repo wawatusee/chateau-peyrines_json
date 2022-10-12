@@ -22,6 +22,30 @@
             ]
           }
         ]
+      },
+      {
+        "showroom": "Vins Blancs, rosé et trucs",
+        "Products": [
+          {
+            "année": 2021,
+            "product": "Rouge A.O.C Bordeaux Supérieur ",
+            "packaging": [
+              {
+                "quantité": "+36 bouteilles",
+                "price": "7€80"
+              },
+              {
+                "quantité": "+60 bouteilles",
+                "price": "7€50"
+              },
+              {
+                "quantité": "+72 bouteilles",
+                "price": "7€70"
+              }
+            ]
+          }
+        ]
       }
+
     ]
   }
