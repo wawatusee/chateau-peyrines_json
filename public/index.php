@@ -34,15 +34,15 @@
             <h2>Tarifs des vins</h2>
             <?php
             require_once("../model/catalog_model.php");
-            require_once("../view/catalog_view.php");
             //Chargement du catalogue depuis la base de données
             $catalog=new CatalogModel("../json/catalog.json");
-            $catalogueVins=$catalog->getCatalog();
-            var_dump($catalogueVins);
-            //T'en était là
-            $titre=$catalogueVins->catalog;
-            var_dump($titre);
-            echo $titre[0]->showroom;
+            $catalogueProducts=$catalog->getCatalog();
+            var_dump($catalogueProducts);
+            //Affichage du catalogue
+            require_once("../view/catalog_view.php");
+            $categoryCatalog=$catalogueProducts->catalog;
+            var_dump($categoryCatalog);
+            echo $categoryCatalog[0]->showroom;
             $viewCatalog=new CatalogView;
             /*$showRoomView=$viewCatalog->getView($tableauDesVitrines);*/
             ?>
