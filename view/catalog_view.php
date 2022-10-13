@@ -2,7 +2,7 @@
  private $catalogView=" ";
     public function getView(array $catalogArray){
         foreach($catalogArray as $showroom){
-            //Comment décomposer chaque produit dans cette boucle?
+            //Comment décomposer chaque produit sans twig
             $this->catalogView.="<h3>".$showroom->showroom."</H3>";
             //Chaque catégorie de produits
             $this->catalogView.="<section class='showcase'>";
