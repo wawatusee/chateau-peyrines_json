@@ -43,6 +43,9 @@
             $categoriesCatalog=$catalogueProducts->catalog;
             var_dump($categoriesCatalog);
             echo $categoriesCatalog[0]->showroom;
+            $a_produits=$categoriesCatalog[0]->Products[0]->année;
+            var_dump($a_produits);
+            echo ($a_produits);
             $viewCatalog=new CatalogView;
             $showRoomView=$viewCatalog->getView($categoriesCatalog);
             echo $showRoomView;
