@@ -1,13 +1,13 @@
 <footer>
     <div class="footerNav">
-        <nav id="menuRS" class="rs">
+    <nav class="mainNav">Reprise main nav</nav>
+        <nav class="extNav">Liens extérieurs</nav>
+        <nav id="menuRS" class="nav-rs">
         /*<?php 
                     foreach($menuRS as $item){
-                        echo "<a href=".$item->page."><img src='img/logo-".$item->titre.".png'>.</a>";
+                        echo "<a href=".$item->page." target='_blank'><div class='rs ".$item->titre."'></div></a>";
                     }
         ?>
         </nav>
-        <nav class="mainNav">Reprise main nav</nav>
-        <nav class="extNav">Liens extérieurs</nav>
     </div>
 </footer>

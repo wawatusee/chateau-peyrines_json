@@ -103,4 +103,30 @@ body {
 #menuRS{
   background-color: white;
 }
+/*Block nav rs*/
+.nav-rs{
+  background-color:pink;
+}
+.nav-rs a{
+  display: inline-block;
+}
+.rs{
+height: 30px;
+width: 30px;
+background-image: url("../img/logo-rs_30px.png");
+background-position-y:0;
+}
+.rs:hover{
+  background-position-y:-30px;
+  }
+.facebook{
+background-position-x:0;
+}
+.instagram{
+background-position-x:-30px;
+}
+.linkedin{
+background-position-x:-60px;
+}
+/*End Block nav rs*/
 

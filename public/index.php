@@ -36,16 +36,10 @@
             require_once("../model/catalog_model.php");
             //Chargement du catalogue depuis la base de données
             $catalog=new CatalogModel("../json/catalog.json");
-            $catalogueProducts=$catalog->getCatalog();
-            //var_dump($catalogueProducts);
+            $catalogFull=$catalog->getCatalog();
+            $categoriesCatalog=$catalogFull->catalog;
             //Affichage du catalogue
             require_once("../view/catalog_view.php");
-            $categoriesCatalog=$catalogueProducts->catalog;
-            //var_dump($categoriesCatalog);
-            echo $categoriesCatalog[0]->showroom;
-            $a_produits=$categoriesCatalog[0]->Products[0]->année;
-            //var_dump($a_produits);
-            echo ($a_produits);
             $viewCatalog=new CatalogView;
             $showRoomView=$viewCatalog->getView($categoriesCatalog);
             echo $showRoomView;

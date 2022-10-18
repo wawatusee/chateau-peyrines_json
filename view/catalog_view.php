@@ -3,8 +3,8 @@
     public function getView(array $catalogArray){
         foreach($catalogArray as $showroom){
             //Comment décomposer chaque produit sans twig
-            $this->catalogView.="<h3>".$showroom->showroom."</H3>";
             //Chaque catégorie de produits
+            $this->catalogView.="<h3>".$showroom->showroom."</H3>";
             $this->catalogView.="<section class='showcase'>";
             foreach ($showroom->Products as $product){
                 //Chaque produit

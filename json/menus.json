@@ -20,11 +20,11 @@
 	"RS_menu":[
 		{
 			"page":"https://www.facebook.com/peyrines",
-			"titre":"FaceBook"
+			"titre":"facebook"
 		},
 		{
 			"page":"https://www.instagram.com/chateau_peyrines/",
-			"titre":"Instagram"
+			"titre":"instagram"
 		}
 	]
 }
