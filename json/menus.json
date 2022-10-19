@@ -1,12 +1,12 @@
 {
-	"Main menu":[
+	"Main_menu":[
 		{
 			"page":"accueil",
 			"titre":"Accueil"
 		},
 		{
 			"page":"vins-tarifs",
-			"titre":"Tarifs des vins"
+			"titre":"Catalogue"
 		},
 		{
 			"page":"tournee",
@@ -15,6 +15,16 @@
 		{
 			"page":"contact",
 			"titre":"Contacts"
+		}
+	],
+	"RS_menu":[
+		{
+			"page":"https://www.facebook.com/peyrines",
+			"titre":"facebook"
+		},
+		{
+			"page":"https://www.instagram.com/chateau_peyrines/",
+			"titre":"instagram"
 		}
 	]
 }

@@ -1,9 +1,26 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+      /**** CEST ICI QUE CA SE PASSE ****/
+      display: grid; /*Transforme la balise body en contenur grid*/
+      grid-template-rows: auto auto 1fr auto; /*défini la hauteur que les lignes 
+  de la grille doivent occuper. Auto correspond à la hauteur par défaut de 
+  la ligne (en fonction de ce qu'il y a dedans donc). Fr (fraction) permet 
+  d'occuper l'espace restant*/
+      height: 100vh; /*vh (pour viewport height) permet de s'assurer que le 
+  body fera bien toute la hauteur de la surface d'affichage du navigateur*/
+
+  }
+  /*Variables Colors*/
+  :root{
+    --main-bg-color:#333;
+    --main-clear-color:#ccc;
+    --rs-bckgrnd-img:url("../img/menu_rs.png");
   }
 /**********************/
-  /*MENU*/
+  /*MENUS*/
+/**********************/
+  /*mainMenu*/
 /**********************/
   .responsiveMenu {
     overflow: hidden;
@@ -13,7 +30,7 @@ body {
   .responsiveMenu a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: var(--main-clear-color);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -55,3 +72,61 @@ body {
       text-align: left;
     }
   }
+
+  /*Catalogue*/
+  .showcase{
+    border:1px solid var(--main-clear-color);
+    width: fit-content;
+    padding: 5px;
+  }
+  .prices{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .price{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .packaging{
+    background-color:var(--main-bg-color);
+    color: var(--main-clear-color);
+  }
+  /*Footer*/
+  footer{
+    background-color:var(--main-bg-color);
+    color:var(--main-clear-color);
+  }
+    /*RSmenu*/
+/**********************/
+#menuRS{
+  background-color: white;
+}
+/*Block nav rs*/
+.nav-rs{
+  background-color:pink;
+}
+.nav-rs a{
+  display: inline-block;
+}
+.rs{
+height: 30px;
+width: 30px;
+background-image: url("../img/logo-rs_30px.png");
+background-position-y:0;
+}
+.rs:hover{
+  background-position-y:-30px;
+  }
+.facebook{
+background-position-x:0;
+}
+.instagram{
+background-position-x:-30px;
+}
+.linkedin{
+background-position-x:-60px;
+}
+/*End Block nav rs*/
+
