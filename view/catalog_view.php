@@ -9,15 +9,15 @@
             foreach ($showroom->Products as $product){
                 //Chaque produit
                 $this->catalogView.="<div class='product'>".$product->année." ".$product->product."</div>";
-                $this->catalogView.="<table class='prices'><tbody>";
+                
                 foreach($product->packaging as $packaging){
                     //Les prix selon la quantité
-                    $this->catalogView.="<tr>";
-                    $this->catalogView.="<td class='packaging'>".$packaging->quantité."</td>";
-                    $this->catalogView.="<td class='cost'>".$packaging->price."</td>";
-                    $this->catalogView.="</tr>";
+                    $this->catalogView.="<table class='prices'><tbody>";
+                    $this->catalogView.="<th class='packaging'>".$packaging->quantité."</th>";
+                    $this->catalogView.="<tr><td>btl</td><td class='cost'>".$packaging->price."</td></tr>";
+                    $this->catalogView.="</tbody></table>";
                 };
-                $this->catalogView.="</tbody></table>";
+                
             };
 
             $this->catalogView.="</section>";
