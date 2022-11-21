@@ -8,16 +8,16 @@
             $this->catalogView.="<section class='showcase'>";
             foreach ($showroom->Products as $product){
                 //Chaque produit
-                $this->catalogView.="<div class='product'>".$product->année." ".$product->product."</div>";
+                $this->catalogView.="<div class='product'>".$product->année." ".$product->product;
                 
                 foreach($product->packaging as $packaging){
                     //Les prix selon la quantité
-                    $this->catalogView.="<table class='prices'><tbody>";
-                    $this->catalogView.="<th class='packaging'>".$packaging->quantité."</th>";
-                    $this->catalogView.="<tr><td>btl</td><td class='cost'>".$packaging->price."</td></tr>";
+                    $this->catalogView.="<table class='prices'>";
+                    $this->catalogView.="<thead class='packaging'><tr><th colspan='2'>".$packaging->quantité."</th></tr></thead>";
+                    $this->catalogView.="<tbody><tr><td class='price'>".$packaging->price."</td><td>la bouteille</td></tr>";
                     $this->catalogView.="</tbody></table>";
                 };
-                
+                $this->catalogView.="</div>";
             };
 
             $this->catalogView.="</section>";

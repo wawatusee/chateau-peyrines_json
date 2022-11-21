@@ -80,17 +80,18 @@ body {
     padding: 5px;
   }
   .prices{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
+    text-align: center;
+    border: 1px solid #333;
   }
   .price{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
+    background-color: #aaa;
+    color: white;
+  }
+  thead{
+    background-color:var(--main-bg-color);
   }
   .packaging{
-    background-color:var(--main-bg-color);
+    
     color: var(--main-clear-color);
   }
   /*Footer*/
