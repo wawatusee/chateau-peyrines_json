@@ -80,8 +80,15 @@ body {
     padding: 5px;
   }
   .prices{
+    /*float:left;*/
+  }
+  .packaging{
+    display:inline;
     text-align: center;
     border: 1px solid #333;
+  }
+  .quantite{
+    color: var(--main-clear-color);
   }
   .price{
     background-color: #aaa;
@@ -90,10 +97,7 @@ body {
   thead{
     background-color:var(--main-bg-color);
   }
-  .packaging{
-    
-    color: var(--main-clear-color);
-  }
+
   /*Footer*/
   footer{
     background-color:var(--main-bg-color);
