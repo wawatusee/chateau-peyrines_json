@@ -7,6 +7,8 @@
           {
             "année": 2021,
             "product": "Blanc sec  A.O.C Entre-deux-Mers Haut Benauge",
+            "detail":"Elaboré avec un assemblage des 3 cépages sémillion, sauvignon, et muscadelle",
+            "image":"blancsec.jpg",
             "packaging": [
               {
                 "quantité": "+36 bouteilles",
@@ -25,6 +27,8 @@
           {
             "année": 2020,
             "product": "Blanc Moelleux A.O.C Bordeaux Haut Benauge",
+            "detail":"Elaboré avec le cépage sémillion",
+            "image":"blancmoelleux.jpg",
             "packaging": [
               {
                 "quantité": "+36 bouteilles",
@@ -44,6 +48,8 @@
           {
             "année": 2021,
             "product": "Rosé A.O.C Bordeaux ",
+              "detail":"Elaboré avec un assemblage de merlot et de cabernet sauvignon",
+              "image":"rose.jpg",
             "packaging": [
               {
                 "quantité": "+36 bouteilles",

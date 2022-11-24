@@ -79,9 +79,26 @@ body {
     width: fit-content;
     padding: 5px;
   }
-  .prices{
-    /*float:left;*/
+  .detailsvin {
+    display: flex;
+    
   }
+  .imgcatalog{
+    width: 90px;
+    margin: auto;
+  }
+  .detailsvin p{
+    font-size: small;
+    border: solid 0.5px #abc765;
+    border-radius: 0.5em;
+    text-align: center;
+  }
+  .prices{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  /*Catalogue prix sous forme de tableaux*/
   .packaging{
     display:inline;
     text-align: center;
