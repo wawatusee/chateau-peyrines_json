@@ -19,15 +19,17 @@
     <main role=main>
         <section id="accueil" style="padding-left:16px">
             <h1>Accueil</h1>
-            <h2>Présentation du site</h2>
-            <p>Sur ce site:</p>
-            <ul>
-                <li>La présentation du site Chateau-Peyrines(cette page)</li>
-                <li>Les produits de Chateau Peyrines, à savoir principalement du vin, vendu dans différents contenus et les moyens mis à disposition pour vous les approprier.</li>
-                <li>La carte et les dates de tournée de Chateau Peyrines</li>
-                <li>Les moyens de contacter un des travailleurs ou intervenants de chateau Peyrines</li>
-                <li>En bas de chaque page, une série de liens cliquables, vous permet d'accéder à différentes rubriques, si vous êtes concernés, vous savez sur lesquelles cliquer.</li>
-            </ul>
+            <article>
+                <h2>Présentation du site</h2>
+                <p>Sur ce site:</p>
+                <ul class="information">
+                    <li>La présentation du site Chateau-Peyrines(cette page)</li>
+                    <li>Les produits de Chateau Peyrines, à savoir principalement du vin, vendu dans différents contenus et les moyens mis à disposition pour vous les approprier.</li>
+                    <li>La carte et les dates de tournée de Chateau Peyrines</li>
+                    <li>Les moyens de contacter un des travailleurs ou intervenants de chateau Peyrines</li>
+                    <li>En bas de chaque page, une série de liens cliquables, vous permet d'accéder à différentes rubriques, si vous êtes concernés, vous savez sur lesquelles cliquer.</li>
+                </ul>
+            </article>
         </section>
         <section id="vins-tarifs">
             <h1>Catalogue</h1>
