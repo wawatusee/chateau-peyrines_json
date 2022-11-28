@@ -12,15 +12,15 @@
             "packaging": [
               {
                 "quantité": "+36 bouteilles",
-                "price": "7€80"
+                "price": "7€90"
               },
               {
                 "quantité": "+60 bouteilles",
-                "price": "7€50"
+                "price": "7€60"
               },
               {
                 "quantité": "+72 bouteilles",
-                "price": "7€30"
+                "price": "7€40"
               }
             ]
           },
@@ -32,15 +32,15 @@
             "packaging": [
               {
                 "quantité": "+36 bouteilles",
-                "price": "8€20"
+                "price": "8€30"
               },
               {
                 "quantité": "+60 bouteilles",
-                "price": "7€90"
+                "price": "8€00"
               },
               {
                 "quantité": "+72 bouteilles",
-                "price": "7€70"
+                "price": "7€80"
               }
 
             ]
@@ -53,15 +53,15 @@
             "packaging": [
               {
                 "quantité": "+36 bouteilles",
-                "price": "7€80"
+                "price": "7€90"
               },
               {
                 "quantité": "+60 bouteilles",
-                "price": "7€50"
+                "price": "7€60"
               },
               {
                 "quantité": "+72 bouteilles",
-                "price": "7€30"
+                "price": "7€40"
               }
 
             ]
@@ -72,15 +72,15 @@
             "packaging": [
               {
                 "quantité": "+36 bouteilles",
-                "price": "11€20"
+                "price": "11€30"
               },
               {
                 "quantité": "+60 bouteilles",
-                "price": "10€90"
+                "price": "11€00"
               },
               {
                 "quantité": "+72 bouteilles",
-                "price": "10€70"
+                "price": "10€80"
               }
 
             ]
@@ -96,19 +96,19 @@
             "packaging": [
               {
                 "quantité": "+36 bouteilles",
-                "price": "7€80"
+                "price": "8€40"
               },
               {
                 "quantité": "+60 bouteilles",
-                "price": "7€50"
+                "price": "8€10"
               },
               {
                 "quantité": "+72 bouteilles",
-                "price": "7€70"
+                "price": "7€90"
               },
               {
                 "quantité": "Magnum",
-                "price": "18€50"
+                "price": "19€80"
               }
             ]
           },
@@ -118,15 +118,15 @@
             "packaging": [
               {
                 "quantité": "+36 bouteilles",
-                "price": "8€10"
+                "price": "8€20"
               },
               {
                 "quantité": "+60 bouteilles",
-                "price": "7€80"
+                "price": "7€90"
               },
               {
                 "quantité": "+72 bouteilles",
-                "price": "7€60"
+                "price": "7€70"
               }
             ]
           }
@@ -136,7 +136,7 @@
         "showroom": "Vins rouges en vrac",
         "Products": [
           {
-            "année": 2018,
+            "année": 2019,
             "product": "Rouge A.O.C Bordeaux par 1 ou 2 colis ",
             "packaging": [
               {
@@ -155,7 +155,7 @@
           },
           {
             "année": 2018,
-            "product": "Rouge A.O.C Bordeaux par 2 ou 3 colis ",
+            "product": "Rouge A.O.C Bordeaux par 3 colis et plus",
             "packaging": [
               {
                 "quantité": "Cubit de 22 litres",
@@ -167,7 +167,7 @@
               },
               {
                 "quantité": "Fontaine de 10 litres",
-                "price": "39€95"
+                "price": "39€50"
               }
             ]
           }

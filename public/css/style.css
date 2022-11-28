@@ -21,16 +21,16 @@ body {
   }
   /*Header*/
   header{
-    background-color: var(--main-bg-color);
-    background-image: "img/main-logo.png";
+    background:var(--main-bg-color);
     color: white;
   }
-  header H1,p{
+  header H1, header p{
     text-align: center;
   }
   .logo{
     margin-right: 35px;
   }
+  /*End header*/
 /**********************/
   /*MENUS*/
 /**********************/
@@ -178,4 +178,3 @@ background-position-x:-30px;
 background-position-x:-60px;
 }
 /*End Block nav rs*/
-

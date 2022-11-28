@@ -34,6 +34,7 @@
         <section id="vins-tarifs">
             <h1>Catalogue</h1>
             <h2>Tarifs des vins</h2>
+            <p>Téléchargement tarifs 2022-2023 <a href="/public/docs/PEYRINES Tarifs Expéditions 22-2023.pdf">tarifs expéditions-2022-2023</a></p>
             <?php
             require_once("../model/catalog_model.php");
             //Chargement du catalogue depuis la base de données
