@@ -28,7 +28,7 @@ body {
     text-align: center;
   }
   .logo{
-    margin-right: 35px;
+    margin-left: 35px;
   }
   /*End header*/
 /**********************/
@@ -138,6 +138,13 @@ body {
   }
   thead{
     background-color:var(--main-bg-color);
+  }
+  .conditionsvente{
+    background-color: var(--main-clear-color);
+    height:8em;
+    overflow: auto;
+    font-size: 0.8rem;
+
   }
     /*End Catalogue*/
   /**********************/

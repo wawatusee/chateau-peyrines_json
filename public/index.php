@@ -47,6 +47,15 @@
             $showRoomView=$viewCatalog->getView($categoriesCatalog);
             echo $showRoomView;
             ?>
+            <fieldset class="conditionsvente">
+                <legend>Conditions de vente</legend>
+                <p>La livraison se fait à partir de 36 bouteilles.</p>
+                <p>Pour profiter du Tarif dégressif, commandez avec des ami(e)s et faites expédier à une seule adresse.</p>
+                <p>Ces prix s’entendent Toutes Taxes Comprises et Transport Compris pour la France Métropolitaine.</p>
+                <p>Règlement à la commande par chèque , à l’ordre de : SCEA BEHAGHEL Ou par Virement Bancaire sur demande du RIB.</p>
+                <p>Ces tarifs sont valables de : Octobre 2022 à Septembre 2023</p>
+                <p>L’abus d’alcool est dangereux pour la santé. À consommer avec modération.</p>
+            </fieldset>
         </section>
         <section id="tournee">
             <h1>Tournée</h1>
