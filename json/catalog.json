@@ -7,24 +7,118 @@
           {
             "année": 2021,
             "product": "Blanc sec  A.O.C Entre-deux-Mers Haut Benauge",
+            "detail":"Elaboré avec un assemblage des 3 cépages sémillion, sauvignon, et muscadelle",
+            "image":"blancsec.jpg",
             "packaging": [
               {
                 "quantité": "+36 bouteilles",
-                "price": "7€80"
+                "price": "7€90"
               },
               {
                 "quantité": "+60 bouteilles",
-                "price": "7€50"
+                "price": "7€60"
               },
               {
                 "quantité": "+72 bouteilles",
-                "price": "7€30"
+                "price": "7€40"
               }
             ]
           },
           {
             "année": 2020,
             "product": "Blanc Moelleux A.O.C Bordeaux Haut Benauge",
+            "detail":"Elaboré avec le cépage sémillion",
+            "image":"blancmoelleux.jpg",
+            "packaging": [
+              {
+                "quantité": "+36 bouteilles",
+                "price": "8€30"
+              },
+              {
+                "quantité": "+60 bouteilles",
+                "price": "8€00"
+              },
+              {
+                "quantité": "+72 bouteilles",
+                "price": "7€80"
+              }
+
+            ]
+          },
+          {
+            "année": 2021,
+            "product": "Rosé A.O.C Bordeaux ",
+            "detail":"Elaboré avec un assemblage de merlot et de cabernet sauvignon",
+            "image":"rose.jpg",
+            "packaging": [
+              {
+                "quantité": "+36 bouteilles",
+                "price": "7€90"
+              },
+              {
+                "quantité": "+60 bouteilles",
+                "price": "7€60"
+              },
+              {
+                "quantité": "+72 bouteilles",
+                "price": "7€40"
+              }
+
+            ]
+          },
+          {
+            "année": 2021,
+            "product": "Méthode Traditionnelle:''Les Bulles de Peyrines''  ",
+            "detail":"Elaboré avec le cépage sémillion. La champagnisation se fait durant 9 mois chez un prestataire spécialisé.",
+            "packaging": [
+              {
+                "quantité": "+36 bouteilles",
+                "price": "11€30"
+              },
+              {
+                "quantité": "+60 bouteilles",
+                "price": "11€00"
+              },
+              {
+                "quantité": "+72 bouteilles",
+                "price": "10€80"
+              }
+
+            ]
+          }
+        ]
+      },
+      {
+        "showroom": "Vins rouges",
+        "Products": [
+          {
+            "année": 2015,
+            "product": "Rouge A.O.C Bordeaux Supérieur ",
+            "detail":"Elaboré avec un assemblage de merlot, de cabernet sauvignon et de cabernet franc",
+            "image":"rouge.jpg",
+            "packaging": [
+              {
+                "quantité": "+36 bouteilles",
+                "price": "8€40"
+              },
+              {
+                "quantité": "+60 bouteilles",
+                "price": "8€10"
+              },
+              {
+                "quantité": "+72 bouteilles",
+                "price": "7€90"
+              },
+              {
+                "quantité": "Magnum",
+                "price": "19€80"
+              }
+            ]
+          },
+          {
+            "année": 2016,
+            "product": "Rouge A.O.C Bordeaux Supérieur ",
+            "detail":"Elaboré avec un assemblage de merlot, de cabernet sauvignon et de cabernet franc",
             "packaging": [
               {
                 "quantité": "+36 bouteilles",
@@ -38,90 +132,6 @@
                 "quantité": "+72 bouteilles",
                 "price": "7€70"
               }
-
-            ]
-          },
-          {
-            "année": 2021,
-            "product": "Rosé A.O.C Bordeaux ",
-            "packaging": [
-              {
-                "quantité": "+36 bouteilles",
-                "price": "7€80"
-              },
-              {
-                "quantité": "+60 bouteilles",
-                "price": "7€50"
-              },
-              {
-                "quantité": "+72 bouteilles",
-                "price": "7€30"
-              }
-
-            ]
-          },
-          {
-            "année": 2021,
-            "product": "Méthode Traditionnelle:''Les Bulles de Peyrines''  ",
-            "packaging": [
-              {
-                "quantité": "+36 bouteilles",
-                "price": "11€20"
-              },
-              {
-                "quantité": "+60 bouteilles",
-                "price": "10€90"
-              },
-              {
-                "quantité": "+72 bouteilles",
-                "price": "10€70"
-              }
-
-            ]
-          }
-        ]
-      },
-      {
-        "showroom": "Vins rouges",
-        "Products": [
-          {
-            "année": 2015,
-            "product": "Rouge A.O.C Bordeaux Supérieur ",
-            "packaging": [
-              {
-                "quantité": "+36 bouteilles",
-                "price": "7€80"
-              },
-              {
-                "quantité": "+60 bouteilles",
-                "price": "7€50"
-              },
-              {
-                "quantité": "+72 bouteilles",
-                "price": "7€70"
-              },
-              {
-                "quantité": "Magnum",
-                "price": "18€50"
-              }
-            ]
-          },
-          {
-            "année": 2016,
-            "product": "Rouge A.O.C Bordeaux Supérieur ",
-            "packaging": [
-              {
-                "quantité": "+36 bouteilles",
-                "price": "8€10"
-              },
-              {
-                "quantité": "+60 bouteilles",
-                "price": "7€80"
-              },
-              {
-                "quantité": "+72 bouteilles",
-                "price": "7€60"
-              }
             ]
           }
         ]
@@ -130,8 +140,9 @@
         "showroom": "Vins rouges en vrac",
         "Products": [
           {
-            "année": 2018,
+            "année": 2019,
             "product": "Rouge A.O.C Bordeaux par 1 ou 2 colis ",
+            "detail":"Elaboré avec un assemblage de merlot, de cabernet sauvignon et de cabernet franc",
             "packaging": [
               {
                 "quantité": "Cubit de 22 litres",
@@ -149,7 +160,8 @@
           },
           {
             "année": 2018,
-            "product": "Rouge A.O.C Bordeaux par 2 ou 3 colis ",
+            "product": "Rouge A.O.C Bordeaux par 3 colis et plus",
+            "detail":"Elaboré avec un assemblage de merlot, de cabernet sauvignon et de cabernet franc",
             "packaging": [
               {
                 "quantité": "Cubit de 22 litres",
@@ -161,7 +173,7 @@
               },
               {
                 "quantité": "Fontaine de 10 litres",
-                "price": "39€95"
+                "price": "39€50"
               }
             ]
           }

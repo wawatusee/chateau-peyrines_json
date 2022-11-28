@@ -19,19 +19,22 @@
     <main role=main>
         <section id="accueil" style="padding-left:16px">
             <h1>Accueil</h1>
-            <h2>Présentation du site</h2>
-            <p>Sur ce site:</p>
-            <ul>
-                <li>La présentation du site Chateau-Peyrines(cette page)</li>
-                <li>Les produits de Chateau Peyrines, à savoir principalement du vin, vendu dans différents contenus et les moyens mis à disposition pour vous les approprier.</li>
-                <li>La carte et les dates de tournée de Chateau Peyrines</li>
-                <li>Les moyens de contacter un des travailleurs ou intervenants de chateau Peyrines</li>
-                <li>En bas de chaque page, une série de liens cliquables, vous permet d'accéder à différentes rubriques, si vous êtes concernés, vous savez sur lesquelles cliquer.</li>
-            </ul>
+            <article>
+                <h2>Présentation du site</h2>
+                <p>Sur ce site:</p>
+                <ul class="information">
+                    <li>La présentation du site Chateau-Peyrines(cette page)</li>
+                    <li>Les produits de Chateau Peyrines, à savoir principalement du vin, vendu dans différents contenus et les moyens mis à disposition pour vous les approprier.</li>
+                    <li>La carte et les dates de tournée de Chateau Peyrines</li>
+                    <li>Les moyens de contacter un des travailleurs ou intervenants de chateau Peyrines</li>
+                    <li>En bas de chaque page, une série de liens cliquables, vous permet d'accéder à différentes rubriques, si vous êtes concernés, vous savez sur lesquelles cliquer.</li>
+                </ul>
+            </article>
         </section>
         <section id="vins-tarifs">
             <h1>Catalogue</h1>
             <h2>Tarifs des vins</h2>
+            <p>Téléchargement tarifs 2022-2023 <a href="/public/docs/PEYRINES Tarifs Expéditions 22-2023.pdf">tarifs expéditions-2022-2023</a></p>
             <?php
             require_once("../model/catalog_model.php");
             //Chargement du catalogue depuis la base de données
@@ -44,6 +47,15 @@
             $showRoomView=$viewCatalog->getView($categoriesCatalog);
             echo $showRoomView;
             ?>
+            <fieldset class="conditionsvente">
+                <legend>Conditions de vente</legend>
+                <p>La livraison se fait à partir de 36 bouteilles.</p>
+                <p>Pour profiter du Tarif dégressif, commandez avec des ami(e)s et faites expédier à une seule adresse.</p>
+                <p>Ces prix s’entendent Toutes Taxes Comprises et Transport Compris pour la France Métropolitaine.</p>
+                <p>Règlement à la commande par chèque , à l’ordre de : SCEA BEHAGHEL Ou par Virement Bancaire sur demande du RIB.</p>
+                <p>Ces tarifs sont valables de : Octobre 2022 à Septembre 2023</p>
+                <p>L’abus d’alcool est dangereux pour la santé. À consommer avec modération.</p>
+            </fieldset>
         </section>
         <section id="tournee">
             <h1>Tournée</h1>

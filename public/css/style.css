@@ -3,7 +3,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
       /**** CEST ICI QUE CA SE PASSE ****/
       display: grid; /*Transforme la balise body en contenur grid*/
-      grid-template-rows: auto auto 1fr auto; /*défini la hauteur que les lignes 
+      grid-template-rows: auto auto 1fr auto;
+       /*défini la hauteur que les lignes 
   de la grille doivent occuper. Auto correspond à la hauteur par défaut de 
   la ligne (en fonction de ce qu'il y a dedans donc). Fr (fraction) permet 
   d'occuper l'espace restant*/
@@ -16,7 +17,20 @@ body {
     --main-bg-color:#333;
     --main-clear-color:#ccc;
     --rs-bckgrnd-img:url("../img/menu_rs.png");
+    --content-padding:5px;
   }
+  /*Header*/
+  header{
+    background:var(--main-bg-color);
+    color: white;
+  }
+  header H1, header p{
+    text-align: center;
+  }
+  .logo{
+    margin-left: 35px;
+  }
+  /*End header*/
 /**********************/
   /*MENUS*/
 /**********************/
@@ -72,27 +86,69 @@ body {
       text-align: left;
     }
   }
-
+  /*Texte information*/
+  .information{
+    padding: var(--content-padding);
+    background-color: var(--main-clear-color);
+  }
+    /*End mainMENUS*/
+/**********************/
   /*Catalogue*/
+  /**********************/
   .showcase{
-    border:1px solid var(--main-clear-color);
     width: fit-content;
     padding: 5px;
   }
+  .product{
+    margin: 10px;
+    padding: var(--content-padding);
+    border:1px solid var(--main-clear-color);
+  }
+  .detailsvin {
+    display: flex;
+    
+  }
+  .imgcatalog{
+    width: 90px;
+    margin: auto;
+  }
+  .detailsvin p{
+    font-size: small;
+    border: solid 0.5px #abc765;
+    border-radius: 0.5em;
+    text-align: center;
+  }
   .prices{
     display:flex;
-    flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
-  .price{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
+  /*Catalogue prix sous forme de tableaux*/
   .packaging{
-    background-color:var(--main-bg-color);
+    display:inline;
+    text-align: center;
+    border: 1px solid #333;
+  }
+  .quantite{
     color: var(--main-clear-color);
   }
+  .price{
+    background-color: #aaa;
+    color: white;
+  }
+  thead{
+    background-color:var(--main-bg-color);
+  }
+  .conditionsvente{
+    background-color: var(--main-clear-color);
+    height:8em;
+    overflow: auto;
+    font-size: 0.8rem;
+
+  }
+    /*End Catalogue*/
+  /**********************/
+
   /*Footer*/
   footer{
     background-color:var(--main-bg-color);
@@ -129,4 +185,3 @@ background-position-x:-30px;
 background-position-x:-60px;
 }
 /*End Block nav rs*/
-
