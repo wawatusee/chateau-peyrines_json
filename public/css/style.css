@@ -19,6 +19,18 @@ body {
     --rs-bckgrnd-img:url("../img/menu_rs.png");
     --content-padding:5px;
   }
+  /*Header*/
+  header{
+    background-color: var(--main-bg-color);
+    background-image: "img/main-logo.png";
+    color: white;
+  }
+  header H1,p{
+    text-align: center;
+  }
+  .logo{
+    margin-right: 35px;
+  }
 /**********************/
   /*MENUS*/
 /**********************/
