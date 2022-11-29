@@ -12,6 +12,7 @@ body {
   body fera bien toute la hauteur de la surface d'affichage du navigateur*/
 
   }
+  /*Fonts*/
   /*Variables Colors*/
   :root{
     --main-bg-color:#333;
@@ -27,8 +28,11 @@ body {
   header H1, header p{
     text-align: center;
   }
+  header H1{
+    font-family: Times, Times New Roman, serif;
+  }
   .logo{
-    margin-left: 35px;
+    margin:0 8px 0  8px;
   }
   /*End header*/
 /**********************/
