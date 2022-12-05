@@ -69,7 +69,11 @@
                     <!--Ici la carte des lieux d'events (leaflet+openmap)-->
                     <h3>Dates</h3>
                     <!--/*Liste des dates des dits events(tableau)*/-->
-                   <?php require_once("../view/tour_view.php");?>
+                   <?php require_once("../view/tour_view.php");
+                   $viewTour=new TourView;
+                   $displayDates= $viewTour->getView($tourFull->events);
+                   echo $displayDates;
+                   ?>
                 </article>
             </section>
         </section>
