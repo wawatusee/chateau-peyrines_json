@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/public/css/style.css">
     <script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="js/tour.js"></script>
     <title>Chateau-Peyrines</title>
 </head>
 <body>
@@ -58,9 +59,18 @@
             </fieldset>
         </section>
         <section id="tournee">
+            <?php require_once("../model/tour_model.php");
+            $tour=new TourModel("../json/tournee.json");
+            $tourFull=$tour->getTour()?>
             <h1>Tournée</h1>
             <section>
-                
+                <article>
+                    <h3>Carte</h3>
+                    <!--Ici la carte des lieux d'events (leaflet+openmap)-->
+                    <h3>Dates</h3>
+                    <!--/*Liste des dates des dits events(tableau)*/-->
+                   <?php require_once("../view/tour_view.php");?>
+                </article>
             </section>
         </section>
     </main>
