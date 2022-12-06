@@ -150,14 +150,32 @@ body {
     font-size: 0.8rem;
 
   }
-    /*End Catalogue*/
-  /**********************/
+  /*End Catalogue*/
+/**********************/
+/**********************/
+/*Tournée*/
+/*Carte*/
 
-  /*Footer*/
-  footer{
-    background-color:var(--main-bg-color);
-    color:var(--main-clear-color);
-  }
+/*End Carte*/
+/*Tableau dates*/
+.tourtable{
+  border:solid 0.4px;
+}
+.tourtable tr:nth-child(odd){
+  background-color: #6c6c6c;
+  color: whitesmoke;
+}
+.tourtable tr:nth-child(even){
+  background-color: #acacac;
+}
+/*End Tableau dates*/
+/*End Tournée*/
+/**********************/
+/*Footer*/
+footer{
+  background-color:var(--main-bg-color);
+  color:var(--main-clear-color);
+}
     /*RSmenu*/
 /**********************/
 #menuRS{
