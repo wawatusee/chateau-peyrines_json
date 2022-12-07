@@ -155,7 +155,10 @@ body {
 /**********************/
 /*Tournée*/
 /*Carte*/
-
+#map {
+  width:500px;
+  height: 500px;
+  }
 /*End Carte*/
 /*Tableau dates*/
 .tourtable{
