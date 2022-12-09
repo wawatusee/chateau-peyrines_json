@@ -6,7 +6,7 @@
             //Affichage des dates d'event
             $this->tourView.="<tr>";
             $this->tourView.="<td>".$date->date."</td>";
-            $this->tourView.="<td>".$date->location."</td>";
+            $this->tourView.="<td>".$date->location->nom."</td>";
             $this->tourView.="<td>".$date->type."</td>";
             if ($date->text){
                 $this->tourView.="<td>".$date->text."</td>";

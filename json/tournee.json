@@ -3,36 +3,28 @@
     [
         {
             "date":"2022-12-03",
-            "location":"Andernos-33",
-            "lat": 44.7476897,
-            "lon": -1.0925184,
+            "location":{"nom":"Andernos-33","lat": 44.7476897,"lon": -1.0925184},
             "type":"Evènement",
             "text":"Cabanes en fête",
             "état":"1"
         },
         {
             "date":"2022-12-03",
-            "location":"Ayguesvives-31",
-            "lat": 43.4381888,
-            "lon": 1.5967912,
+            "location":{"nom":"Ayguesvives-31","lat": 43.4381888,"lon": 1.5967912},
             "type":"Dégustation Vente",
             "text":"",
             "état":"1"
         },
         {
             "date":"2022-12-04",
-            "location":"Toulouse-31",
-            "lat": 43.6042199,
-            "lon": 1.437782,
+            "location":{"nom":"Toulouse-31","lat": 43.6042199,"lon": 1.437782},
             "type":"Dégustation Vente",
             "text":"",
             "état":"1"
         },
         {
             "date":"2022-12-09",
-            "location":"Brive-19",
-            "lat": 45.1726334,
-            "lon": 1.4698091,
+            "location":{"nom":"Brive-19","lat": 45.1726334,"lon": 1.4698091},
             "type":"Livraison",
             "text":"",
             "état":"1"
