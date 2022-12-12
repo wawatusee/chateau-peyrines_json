@@ -15,3 +15,8 @@ var popup = L.popup()
     .setLatLng([44.648166, -0.228111])
     .setContent("<a href='http://www.chateau-peyrines.com/test-pluxml/'>Chateau Peyrines</a><BR> Maison mère")
     .openOn(map);
+    let lieux=a_tour.events;
+    for (index in lieux){
+        let marker=L.marker([lieux[index].location.lat,lieux[index].location.lon]).addTo(map);
+        marker.bindPopup(lieux[index].date+"<br>"+lieux[index].location.nom+"<br>"+lieux[index].type);
+        }

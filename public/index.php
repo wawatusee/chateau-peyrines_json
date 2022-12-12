@@ -68,6 +68,9 @@
             <h1>Tournée</h1>
             <section>
                 <article>
+                <script id="tourData">
+                        const a_tour=<?php echo json_encode($tourFull,true);?>;
+                    </script>
                     <h3>Carte</h3>
                     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
                     <!--Ici la carte des lieux d'events (leaflet+openmap)-->
@@ -79,6 +82,7 @@
                    $displayDates= $viewTour->getView($tourFull->events);
                    echo $displayDates;
                    ?>
+
                 </article>
             </section>
         </section>
