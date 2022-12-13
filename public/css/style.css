@@ -1,16 +1,12 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-      /**** CEST ICI QUE CA SE PASSE ****/
-      display: grid; /*Transforme la balise body en contenur grid*/
-      grid-template-rows: auto auto 1fr auto;
-       /*défini la hauteur que les lignes 
-  de la grille doivent occuper. Auto correspond à la hauteur par défaut de 
-  la ligne (en fonction de ce qu'il y a dedans donc). Fr (fraction) permet 
-  d'occuper l'espace restant*/
-      height: 100vh; /*vh (pour viewport height) permet de s'assurer que le 
-  body fera bien toute la hauteur de la surface d'affichage du navigateur*/
-
+    display: grid; /*Transforme la balise body en contenur grid*/
+    grid-template-rows: auto auto 1fr auto;
+    /*défini la hauteur que les lignes de la grille doivent occuper. Auto correspond à la hauteur par défaut de la ligne (en fonction de ce qu'il y a dedans donc). Fr (fraction) permet d'occuper l'espace restant*/
+     /*vh (pour viewport height) permet de s'assurer que le body fera bien toute la hauteur de la surface d'affichage du navigateur*/
+     height: 100vh;
+     gap: 1em;
   }
   /*Fonts*/
   /*Variables Colors*/
@@ -189,6 +185,7 @@ footer{
       display: flex;
       flex-direction: row;
       justify-content: space-around;
+      margin-bottom: 1em;
     }
     .mainNav a{
       display: block;
@@ -205,6 +202,8 @@ footer{
 /*Block nav rs*/
 .nav-rs{
   background-color:pink;
+  display: flex;
+  justify-content:center;
 }
 .nav-rs a{
   display: inline-block;
@@ -214,6 +213,7 @@ height: 30px;
 width: 30px;
 background-image: url("../img/logo-rs_30px.png");
 background-position-y:0;
+margin: 1em;
 }
 .rs:hover{
   background-position-y:-30px;
