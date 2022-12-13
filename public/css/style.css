@@ -90,6 +90,11 @@ body {
       text-align: left;
     }
   }
+  /*#responsiveMenu{
+    position: fixed;
+    top: 0%;
+    right: 0;
+  }*/
   /*Texte information*/
   .information{
     padding: var(--content-padding);
