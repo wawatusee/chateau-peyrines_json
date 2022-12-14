@@ -1,3 +1,14 @@
+  /*Variable disposition*/
+:root{
+  --standartspace:0.9em;
+  --content-padding:5px;
+}
+  /*Variables Colors*/
+  :root{
+    --main-bg-color:#333;
+    --main-clear-color:#ccc;
+    --rs-bckgrnd-img:url("../img/menu_rs.png");
+  }
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -6,16 +17,12 @@ body {
     /*défini la hauteur que les lignes de la grille doivent occuper. Auto correspond à la hauteur par défaut de la ligne (en fonction de ce qu'il y a dedans donc). Fr (fraction) permet d'occuper l'espace restant*/
      /*vh (pour viewport height) permet de s'assurer que le body fera bien toute la hauteur de la surface d'affichage du navigateur*/
      height: 100vh;
-     gap: 1em;
+     gap: var(--standartspace);
   }
+
+
   /*Fonts*/
-  /*Variables Colors*/
-  :root{
-    --main-bg-color:#333;
-    --main-clear-color:#ccc;
-    --rs-bckgrnd-img:url("../img/menu_rs.png");
-    --content-padding:5px;
-  }
+
   /*Header*/
   header{
     background:var(--main-bg-color);
@@ -185,9 +192,9 @@ footer{
       display: flex;
       flex-direction: row;
       justify-content: space-around;
-      margin-bottom: 1em;
+      margin-bottom: var(--standartspace);
     }
-    .mainNav a{
+    .navfooterbloc a{
       display: block;
       text-decoration: none;
       color: whitesmoke;
@@ -213,7 +220,7 @@ height: 30px;
 width: 30px;
 background-image: url("../img/logo-rs_30px.png");
 background-position-y:0;
-margin: 1em;
+margin: var(--standartspace);
 }
 .rs:hover{
   background-position-y:-30px;
