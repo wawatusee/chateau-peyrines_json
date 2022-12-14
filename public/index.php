@@ -25,14 +25,16 @@
             <h1>Accueil</h1>
             <article>
                 <h2>Présentation du site</h2>
-                <p>Sur ce site:</p>
-                <ul class="information">
-                    <li>La présentation du site Chateau-Peyrines(cette page)</li>
-                    <li>Les produits de Chateau Peyrines, à savoir principalement du vin, vendu dans différents contenus et les moyens mis à disposition pour vous les approprier.</li>
-                    <li>La carte et les dates de tournée de Chateau Peyrines</li>
-                    <li>Les moyens de contacter un des travailleurs ou intervenants de chateau Peyrines</li>
-                    <li>En bas de chaque page, une série de liens cliquables, vous permet d'accéder à différentes rubriques, si vous êtes concernés, vous savez sur lesquelles cliquer.</li>
-                </ul>
+                <section class="information">
+                    <p>Château peyrines n'est pas un chateau, bien qu'il y ait eu un chateau autrefois, aujourd'hui vous y trouverez un domaine viticole. Sur ce domaine viticole, vous pourrez nous y voir, nous sommes des producteurs récoltant du Muscat, du Cabernet, du Sauvignon avec lesquels nous élaborons des vins.</p>
+                    <p>Quels vins? Du vin blanc sec, du rouge supérieur(c'est comme ça qu'il est appelé), des Bulles de Peyrines(qui ne s'appelle pas Champagne parce que ce n'est pas comme ça qu'on l'appelle), du vin rosé, du vin blanc sec et puisque l'on nomme tout le monde on l'appelle Haut Benauge.
+                        <br>Pour avoir plus de détails sur le moyen d'accéder à tous nos trésors voici un lien vers notre <a href="#vins-tarifs">Cataloque</a>.
+                    </p>
+                    <p>Nous sommes producteurs récoltant, je l'ai déja dit, c'est état de fait ne nous empêche pas de nous déplacer. Avec une camionette nous transportons quelques unes de nos bouteilles à divers endroits en France à divers moments <br>
+                        Afin que vous puissiez connaitre les dates de nos dégustations-vente, livraison et autres déplacements voici un lien vers les dates de la <a href="#tournee">tournée</a>. </p>
+                    <p>Si enfin, vous désirez, nous parler, nous écrire ou venir nous voir, voici un autre lien vers la page <a href="#contact">Contact</a></p>
+                    <p>Dans le pied de site, une série de liens cliquables, vous permet d'accéder à différentes rubriques, si vous êtes concernés, vous savez sur lesquelles cliquer.</p>
+                </section>
             </article>
         </section>
         <section id="vins-tarifs">
@@ -90,7 +92,8 @@
 
             <h1>Contact</h1>
             <div class="information">
-                <p>Adresse : Chateau Peyrines, 33410 Mourens, France</p>
+                <p>Adresse : Chateau Peyrines, 33410 Mourens, France <br>Visite & dégustation sur place
+            </p>
                 <p>Téléphone :+33 05 56 61 98 05</p>
                 <p>Mail : contact@chateau-peyrines.com</p>
             </div>
