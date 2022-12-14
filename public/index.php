@@ -86,6 +86,16 @@
                 <script type="text/javascript" src="js/tour.js"></script>
             </article>
         </section>
+        <section id="contact">
+
+            <h1>Contact</h1>
+            <div class="information">
+                <p>Adresse : Chateau Peyrines, 33410 Mourens, France</p>
+                <p>Téléphone :+33 05 56 61 98 05</p>
+                <p>Mail : contact@chateau-peyrines.com</p>
+            </div>
+
+        </section>
     </main>
     <!--Inclusion du footer -->
     <?php require_once('../inc/footer.php')?>
