@@ -1,25 +1,28 @@
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-      /**** CEST ICI QUE CA SE PASSE ****/
-      display: grid; /*Transforme la balise body en contenur grid*/
-      grid-template-rows: auto auto 1fr auto;
-       /*défini la hauteur que les lignes 
-  de la grille doivent occuper. Auto correspond à la hauteur par défaut de 
-  la ligne (en fonction de ce qu'il y a dedans donc). Fr (fraction) permet 
-  d'occuper l'espace restant*/
-      height: 100vh; /*vh (pour viewport height) permet de s'assurer que le 
-  body fera bien toute la hauteur de la surface d'affichage du navigateur*/
-
-  }
-  /*Fonts*/
+  /*Variable disposition*/
+:root{
+  --standartspace:0.9em;
+  --content-padding:5px;
+}
   /*Variables Colors*/
   :root{
     --main-bg-color:#333;
     --main-clear-color:#ccc;
     --rs-bckgrnd-img:url("../img/menu_rs.png");
-    --content-padding:5px;
   }
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid; /*Transforme la balise body en contenur grid*/
+    grid-template-rows: auto auto 1fr auto;
+    /*défini la hauteur que les lignes de la grille doivent occuper. Auto correspond à la hauteur par défaut de la ligne (en fonction de ce qu'il y a dedans donc). Fr (fraction) permet d'occuper l'espace restant*/
+     /*vh (pour viewport height) permet de s'assurer que le body fera bien toute la hauteur de la surface d'affichage du navigateur*/
+     height: 100vh;
+     gap: var(--standartspace);
+  }
+
+
+  /*Fonts*/
+
   /*Header*/
   header{
     background:var(--main-bg-color);
@@ -184,6 +187,20 @@ footer{
   background-color:var(--main-bg-color);
   color:var(--main-clear-color);
 }
+    /*footerNav*/
+    .footerNav{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-bottom: var(--standartspace);
+    }
+    .navfooterbloc a{
+      display: block;
+      text-decoration: none;
+      color: whitesmoke;
+    }
+    /* end footerNav*/
+
     /*RSmenu*/
 /**********************/
 #menuRS{
@@ -192,6 +209,8 @@ footer{
 /*Block nav rs*/
 .nav-rs{
   background-color:pink;
+  display: flex;
+  justify-content:center;
 }
 .nav-rs a{
   display: inline-block;
@@ -201,6 +220,7 @@ height: 30px;
 width: 30px;
 background-image: url("../img/logo-rs_30px.png");
 background-position-y:0;
+margin: var(--standartspace);
 }
 .rs:hover{
   background-position-y:-30px;
