@@ -105,6 +105,12 @@ body {
   }
     /*End mainMENUS*/
 /**********************/
+/*Main*/
+main, header,#navigation, footer{
+  justify-self: center;
+}
+p{max-width:600px;}
+/*endMain*/
   /*Catalogue*/
   /**********************/
   .showcase{
