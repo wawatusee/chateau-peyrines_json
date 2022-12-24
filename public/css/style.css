@@ -16,8 +16,9 @@ body {
     grid-template-rows: auto auto 1fr auto;
     /*défini la hauteur que les lignes de la grille doivent occuper. Auto correspond à la hauteur par défaut de la ligne (en fonction de ce qu'il y a dedans donc). Fr (fraction) permet d'occuper l'espace restant*/
      /*vh (pour viewport height) permet de s'assurer que le body fera bien toute la hauteur de la surface d'affichage du navigateur*/
-     height: 100vh;
-     gap: var(--standartspace);
+    max-width: 100vw;
+    height: 100vh;
+    gap: var(--standartspace);
   }
 
 
@@ -116,7 +117,9 @@ body {
 main{
   justify-self: center;
 }
-p{max-width:600px;}
+p{
+  max-width:600px;
+}
 /*endMain*/
   /*Catalogue*/
   /**********************/
@@ -177,7 +180,7 @@ p{max-width:600px;}
 /*Tournée*/
 /*Carte*/
 #map {
-  width:700px;
+  max-width:700px;
   height: 500px;
   }
 /*End Carte*/
