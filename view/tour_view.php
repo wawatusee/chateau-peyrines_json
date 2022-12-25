@@ -1,7 +1,7 @@
 <?php class TourView{
  private $tourView=" ";
     public function getView(array $tourArray){
-        $this->tourView.="<table class='tourtable'><thead>Tournée</thead>";
+        $this->tourView.="<table class='tourtable'><thead><tr><th>Date</th><th>Lieu</th><th>Type</th><th>Evénement</th></tr></thead>";
         foreach($tourArray as $date){
             //Affichage des dates d'event
             $this->tourView.="<tr>";
