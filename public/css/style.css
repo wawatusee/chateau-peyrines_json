@@ -41,6 +41,7 @@ body {
   }
   .logo{
     margin:0 8px 0  8px;
+    height: 70px;
   }
   header>p{
 
@@ -119,6 +120,9 @@ main{
 }
 p{
   max-width:600px;
+}
+.picto-lien{
+  height: 120px;
 }
 /*endMain*/
   /*Catalogue*/

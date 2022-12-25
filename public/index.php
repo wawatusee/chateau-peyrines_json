@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
      crossorigin="">
-    <script type="text/javascript" src="js/menu.js"></script>
+    <script src="js/menu.js"></script>
     <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
     <title><?php echo $titleWebSite[0]?></title>
 </head>
@@ -20,7 +20,7 @@
         <!--Inclusion du menu -->
         <?php require_once('../inc/nav.php')?>
     </div>
-    <main role=main>
+    <main>
         <section id="accueil">
             <h1>Accueil</h1>
             <article>
@@ -28,10 +28,10 @@
                 <section class="information">
                     <p>Château peyrines n'est pas un chateau, bien qu'il y ait eu un chateau autrefois, aujourd'hui vous y trouverez un domaine viticole. Sur ce domaine viticole, vous pourrez nous y voir, nous sommes des producteurs récoltant du Cabernet, du Sauvignon avec lesquels nous élaborons des vins.</p>
                     <p>Quels vins? Du vin blanc sec, du rouge supérieur(c'est comme ça qu'il est appelé), des Bulles de Peyrines(qui ne s'appelle pas Champagne parce que ce n'est pas comme ça qu'on l'appelle), du vin rosé, du vin blanc sec et puisque l'on nomme tout le monde on l'appelle Haut Benauge.
-                        <br>Pour avoir plus de détails sur le moyen d'accéder à tous nos trésors voici un lien vers notre <a href="#vins-tarifs"><img src="/public/img/logo_bouteille-web.png" alt="dessin du chateau" height="120px"/> Cataloque</a>.
+                        <br>Pour avoir plus de détails sur le moyen d'accéder à tous nos trésors voici un lien vers notre <a href="#vins-tarifs"><img class="picto-lien" src="/public/img/logo_bouteille-web.png" alt="dessin de bouteille"> Cataloque</a>.
                     </p>
                     <p>Nous sommes producteurs récoltant, je l'ai déja dit, c'est état de fait ne nous empêche pas de nous déplacer. Avec une camionette nous transportons quelques unes de nos bouteilles à divers endroits en France à divers moments <br>
-                        Afin que vous puissiez connaitre les dates de nos dégustations-vente, livraison et autres déplacements voici un lien vers les dates de la <a href="#tournee"><img src="/public/img/logo_tour-web.png" alt="dessin de camionette"/>tournée</a>. </p>
+                        Afin que vous puissiez connaitre les dates de nos dégustations-vente, livraison et autres déplacements voici un lien vers les dates de la <a href="#tournee"><img class="picto-lien" src="/public/img/logo_tour-web.png" alt="dessin de camionette">tournée</a>. </p>
                     <p>Si enfin, vous désirez, nous parler, nous écrire ou venir nous voir, voici un autre lien vers la page <a href="#contact">Contact</a></p>
                     <p>Dans le pied de site, une série de liens cliquables, vous permet d'accéder à différentes rubriques, si vous êtes concernés, vous savez sur lesquelles cliquer.</p>
                 </section>
@@ -40,7 +40,7 @@
         <section id="vins-tarifs">
             <h1>Catalogue</h1>
             <h2>Tarifs des vins</h2>
-            <p>Téléchargement tarifs 2022-2023 <a href="/public/docs/PEYRINES Tarifs Expéditions 22-2023.pdf">tarifs expéditions-2022-2023</a></p>
+            <p>Téléchargement tarifs 2022-2023 <a href="/public/docs/PEYRINES-Tarifs-Expéditions-22-2023.pdf">tarifs expéditions-2022-2023</a></p>
             <?php
             require_once("../model/catalog_model.php");
             //Chargement du catalogue depuis la base de données
@@ -92,8 +92,7 @@
 
             <h1>Contact</h1>
             <div class="information">
-                <p>Adresse : Chateau Peyrines, 33410 Mourens, France <br>Visite & dégustation sur place
-            </p>
+                <p>Adresse : Chateau Peyrines, 33410 Mourens, France <br>Visite & dégustation sur place</p>
                 <p>Téléphone :+33 05 56 61 98 05</p>
                 <p>Mail : contact@chateau-peyrines.com</p>
             </div>
