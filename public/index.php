@@ -35,8 +35,9 @@
                     <p>Dans le pied de site, une série de liens cliquables, vous permet d'accéder à différentes rubriques, si vous êtes concernés, vous savez sur lesquelles cliquer.</p>
             </section>
         </section>
-        <section id="vins-tarifs">
+        <section id="catalogue">
             <h2>Catalogue</h2>
+            <section id="vins-tarifs">
             <h3>Tarifs des vins</h3>
             <p>Téléchargement tarifs 2022-2023 <a href="/public/docs/PEYRINES-Tarifs-Expéditions-22-2023.pdf">tarifs expéditions-2022-2023</a></p>
             <?php
@@ -51,6 +52,7 @@
             $showRoomView=$viewCatalog->getView($categoriesCatalog);
             echo $showRoomView;
             ?>
+            </section>
             <fieldset class="conditionsvente">
                 <legend>Conditions de vente</legend>
                 <p>La livraison se fait à partir de 36 bouteilles.</p>
