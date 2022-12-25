@@ -11,7 +11,7 @@
      crossorigin=""/>
     <script type="text/javascript" src="js/menu.js"></script>
     <link rel="shortcut icon" type="image/png" href="img/favicon.ico"/>
-    <title>Chateau-Peyrines</title>
+    <title><?php echo $titleWebSite[0]?></title>
 </head>
 <body>
         <!--Inclusion du header -->
@@ -26,7 +26,7 @@
             <article>
                 <h2>Présentation du site</h2>
                 <section class="information">
-                    <p>Château peyrines n'est pas un chateau, bien qu'il y ait eu un chateau autrefois, aujourd'hui vous y trouverez un domaine viticole. Sur ce domaine viticole, vous pourrez nous y voir, nous sommes des producteurs récoltant du Muscat, du Cabernet, du Sauvignon avec lesquels nous élaborons des vins.</p>
+                    <p>Château peyrines n'est pas un chateau, bien qu'il y ait eu un chateau autrefois, aujourd'hui vous y trouverez un domaine viticole. Sur ce domaine viticole, vous pourrez nous y voir, nous sommes des producteurs récoltant du Cabernet, du Sauvignon avec lesquels nous élaborons des vins.</p>
                     <p>Quels vins? Du vin blanc sec, du rouge supérieur(c'est comme ça qu'il est appelé), des Bulles de Peyrines(qui ne s'appelle pas Champagne parce que ce n'est pas comme ça qu'on l'appelle), du vin rosé, du vin blanc sec et puisque l'on nomme tout le monde on l'appelle Haut Benauge.
                         <br>Pour avoir plus de détails sur le moyen d'accéder à tous nos trésors voici un lien vers notre <a href="#vins-tarifs">Cataloque</a>.
                     </p>

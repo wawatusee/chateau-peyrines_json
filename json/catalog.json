@@ -158,25 +158,6 @@
                 "price": "46€00"
               }
             ]
-          },
-          {
-            "année": 2018,
-            "product": "Rouge A.O.C Bordeaux par 3 colis et plus",
-            "detail":"Elaboré avec un assemblage de merlot, de cabernet sauvignon et de cabernet franc",
-            "packaging": [
-              {
-                "quantité": "Cubit de 22 litres",
-                "price": "84€70"
-              },
-              {
-                "quantité": "Fontaine de 20 litres",
-                "price": "77€00"
-              },
-              {
-                "quantité": "Fontaine de 10 litres",
-                "price": "39€50"
-              }
-            ]
           }
         ]
       }
