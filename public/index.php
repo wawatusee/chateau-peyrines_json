@@ -83,7 +83,7 @@
                 $viewTour=new TourView;
                 $displayDates= $viewTour->getView($tourFull->events);
                 echo $displayDates;?>
-                <script type="text/javascript" src="js/tour.js"></script>
+                <script src="js/tour.js"></script>
             </article>
         </section>
         <section id="contact">
