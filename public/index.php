@@ -39,7 +39,7 @@
             <h2>Catalogue</h2>
             <section id="vins-tarifs">
             <h3>Tarifs des vins</h3>
-            <p>Téléchargement tarifs 2022-2023 <a href="/public/docs/PEYRINES-Tarifs-Expéditions-22-2023.pdf">tarifs expéditions-2022-2023</a></p>
+            <p>Téléchargement tarifs 2022-2023 <a href="/public/docs/peyrines-tarifs-expeditions-22-2023.pdf">tarifs expéditions-2022-2023</a></p>
             <?php
             require_once("../model/catalog_model.php");
             //Chargement du catalogue depuis la base de données
