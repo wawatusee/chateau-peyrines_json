@@ -11,7 +11,7 @@
                 $this->catalogView.="<div class='product'>".$product->année." ".$product->product;
                 $this->catalogView.="<details class='detailsvin'><summary>Vin</summary>";
                 if (isset($product->image)){
-                    $this->catalogView.="<img class='imgcatalog' src='img/catalog/".$product->image."'>";
+                    $this->catalogView.="<img class='imgcatalog' alt='photo du produit' src='img/catalog/".$product->image."'>";
                 };
                 if (isset($product->detail)){
                     $this->catalogView.="<p>".$product->detail."</p>";
