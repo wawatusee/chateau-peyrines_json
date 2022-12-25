@@ -5,7 +5,7 @@
             //Comment décomposer chaque produit sans twig
             //Chaque catégorie de produits
             $this->catalogView.="<section class='showcase'>";
-            $this->catalogView.="<h3>".$showroom->showroom."</H3>";
+            $this->catalogView.="<h4>".$showroom->showroom."</H4>";
             foreach ($showroom->Products as $product){
                 //Chaque produit
                 $this->catalogView.="<div class='product'>".$product->année." ".$product->product;

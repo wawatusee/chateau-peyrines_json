@@ -22,9 +22,9 @@
     </div>
     <main>
         <section id="accueil">
-            <h1>Accueil</h1>
+            <h2>Accueil</h2>
             <section class="information">
-                <h2>Présentation du site</h2>
+                <h3>Présentation du site</h3>
                     <p>Château peyrines n'est pas un chateau, bien qu'il y ait eu un chateau autrefois, aujourd'hui vous y trouverez un domaine viticole. Sur ce domaine viticole, vous pourrez nous y voir, nous sommes des producteurs récoltant du Cabernet, du Sauvignon avec lesquels nous élaborons des vins.</p>
                     <p>Quels vins? Du vin blanc sec, du rouge supérieur(c'est comme ça qu'il est appelé), des Bulles de Peyrines(qui ne s'appelle pas Champagne parce que ce n'est pas comme ça qu'on l'appelle), du vin rosé, du vin blanc sec et puisque l'on nomme tout le monde on l'appelle Haut Benauge.
                         <br>Pour avoir plus de détails sur le moyen d'accéder à tous nos trésors voici un lien vers notre <a href="#vins-tarifs"><img class="picto-lien" src="/public/img/logo_bouteille-web.png" alt="dessin de bouteille"> Cataloque</a>.
@@ -36,8 +36,8 @@
             </section>
         </section>
         <section id="vins-tarifs">
-            <h1>Catalogue</h1>
-            <h2>Tarifs des vins</h2>
+            <h2>Catalogue</h2>
+            <h3>Tarifs des vins</h3>
             <p>Téléchargement tarifs 2022-2023 <a href="/public/docs/PEYRINES-Tarifs-Expéditions-22-2023.pdf">tarifs expéditions-2022-2023</a></p>
             <?php
             require_once("../model/catalog_model.php");
@@ -66,7 +66,7 @@
             <?php require_once("../model/tour_model.php");
             $tour=new TourModel("../json/tournee.json");
             $tourFull=$tour->getTour()?>
-            <h1>Tournée</h1>
+            <h2>Tournée</h2>
             <article>
                 <script id="tourData">
                 <!--Récupération du json de la tournée-->
@@ -87,14 +87,12 @@
             </article>
         </section>
         <section id="contact">
-
-            <h1>Contact</h1>
+            <h2>Contact</h2>
             <div class="information">
                 <p>Adresse : Chateau Peyrines, 33410 Mourens, France <br>Visite & dégustation sur place</p>
                 <p>Téléphone :+33 05 56 61 98 05</p>
                 <p>Mail : contact@chateau-peyrines.com</p>
             </div>
-
         </section>
     </main>
     <!--Inclusion du footer -->
