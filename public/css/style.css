@@ -11,7 +11,7 @@
   }
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: grid; /*Transforme la balise body en contenur grid*/
     grid-template-rows: auto auto 1fr auto;
     /*défini la hauteur que les lignes de la grille doivent occuper. Auto correspond à la hauteur par défaut de la ligne (en fonction de ce qu'il y a dedans donc). Fr (fraction) permet d'occuper l'espace restant*/
@@ -41,10 +41,13 @@ body {
   }
   .logo{
     margin:0 8px 0  8px;
-    height: 70px;
+    height: 90px;
   }
-  header>p{
-
+  h1>span{
+    display: block;
+    font-style: normal;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   /*End header*/
 /**********************/
