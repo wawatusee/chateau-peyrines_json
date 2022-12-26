@@ -1,6 +1,6 @@
 {
-    "catalog": [
-
+    "catalog":
+     [
       {
         "showroom": "Vins Blancs et Rosé",
         "Products": [
@@ -168,6 +168,7 @@
             "année": 2019,
             "product": "Rouge A.O.C Bordeaux par 1 ou 2 colis ",
             "detail":"Elaboré avec un assemblage de merlot, de cabernet sauvignon et de cabernet franc",
+            "image":"fontaine-vin.jpg",
             "packaging": [
               {
                 "quantité": "Cubit de 22 litres",
@@ -182,7 +183,8 @@
                 "price": "46€00"
               }
             ]
-          },          {
+          },
+          {
             "année": 2019,
             "product": "Rouge A.O.C Bordeaux 3 colis et plus",
             "detail":"Elaboré avec un assemblage de merlot, de cabernet sauvignon et de cabernet franc",
@@ -200,9 +202,32 @@
                 "price": "39€50"
               }
             ]
+          },
+          {
+            "année": 2019,
+            "product": "Rouge A.O.C Bordeaux au départ de la propriété",
+            "detail":"Elaboré avec un assemblage de merlot, de cabernet sauvignon et de cabernet franc",
+            "packaging": [
+              {
+                "quantité": "Fontaine de 5 litres",
+                "price": "16€50 soit 3€30/l"
+              },
+              {
+                "quantité": "Fontaine de 10 litres",
+                "price": "32€00 soit 3€20/l"
+              },
+              {
+                "quantité": "Fontaine de 20 litres",
+                "price": "62€00 soit 3€10/l"
+              },
+              {
+                "quantité": "Fontaine de 22 litres",
+                "price": "62€80 soit 3€10/l"
+              }
+            
+            ]
           }
-        ]
-      }
-
-    ]
-  }
+      ]
+   }
+  ]
+}
