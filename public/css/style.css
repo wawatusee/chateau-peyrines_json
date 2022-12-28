@@ -2,6 +2,7 @@
 :root{
   --standartspace:0.9em;
   --content-padding:5px;
+  --font:"Comfortaa-Regular.ttf";
 }
   /*Variables Colors*/
   :root{
@@ -9,9 +10,15 @@
     --main-clear-color:#ccc;
     --rs-bckgrnd-img:url("../img/menu_rs.png");
   }
+  @fontface{
+    font-family:"comfortaa";
+    src:url("css/fonts/Comfortaa-Regular.ttf");
+  }
+
 body {
+  font-family: "comfortaa";
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
     display: grid; /*Transforme la balise body en contenur grid*/
     grid-template-rows: auto auto 1fr auto;
     /*défini la hauteur que les lignes de la grille doivent occuper. Auto correspond à la hauteur par défaut de la ligne (en fonction de ce qu'il y a dedans donc). Fr (fraction) permet d'occuper l'espace restant*/
@@ -123,6 +130,7 @@ main{
 }
 p{
   max-width:600px;
+  margin: auto;
 }
 .picto-lien{
   height: 120px;
