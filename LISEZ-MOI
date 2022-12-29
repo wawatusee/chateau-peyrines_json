@@ -1,0 +1,11 @@
+Bonjour,
+
+n'effacez pas les deux répertoires www et cgi-bin :
+ - www est destiné à accueillir vos pages web (*.html *.php)
+   les pages seront visibles en utilisant l'adresse suivante:
+   http://www.votre-domaine.tld/
+ - cgi-bin peut servir à installer certains scripts cgi
+   http://www.votre-domaine.tld/cgi-bin
+
+Amicalement
+L'équipe d'OVH 

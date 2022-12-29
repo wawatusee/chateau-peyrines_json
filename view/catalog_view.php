@@ -4,14 +4,14 @@
         foreach($catalogArray as $showroom){
             //Comment décomposer chaque produit sans twig
             //Chaque catégorie de produits
-            $this->catalogView.="<h3>".$showroom->showroom."</H3>";
             $this->catalogView.="<section class='showcase'>";
+            $this->catalogView.="<h4>".$showroom->showroom."</H4>";
             foreach ($showroom->Products as $product){
                 //Chaque produit
                 $this->catalogView.="<div class='product'>".$product->année." ".$product->product;
                 $this->catalogView.="<details class='detailsvin'><summary>Vin</summary>";
                 if (isset($product->image)){
-                    $this->catalogView.="<img class='imgcatalog' src='img/catalog/".$product->image."'>";
+                    $this->catalogView.="<img class='imgcatalog' alt='photo du produit' src='img/catalog/".$product->image."'>";
                 };
                 if (isset($product->detail)){
                     $this->catalogView.="<p>".$product->detail."</p>";

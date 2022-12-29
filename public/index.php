@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/public/css/style.css">
+    <meta name="google-site-verification" content="00xcLmYAyZXyMNUqTeggzhT2lDVH5gSZxB2BCkXpu4A" />
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
-     crossorigin=""/>
-    <script type="text/javascript" src="js/menu.js"></script>
-    <link rel="shortcut icon" type="image/png" href="img/favicon.ico"/>
-    <title>Chateau-Peyrines</title>
+     crossorigin="">
+    <script src="js/menu.js"></script>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
+    <title><?php echo $titleWebSite[0]?></title>
 </head>
 <body>
         <!--Inclusion du header -->
@@ -20,25 +21,26 @@
         <!--Inclusion du menu -->
         <?php require_once('../inc/nav.php')?>
     </div>
-    <main role=main>
-        <section id="accueil" style="padding-left:16px">
-            <h1>Accueil</h1>
-            <article>
-                <h2>Présentation du site</h2>
-                <p>Sur ce site:</p>
-                <ul class="information">
-                    <li>La présentation du site Chateau-Peyrines(cette page)</li>
-                    <li>Les produits de Chateau Peyrines, à savoir principalement du vin, vendu dans différents contenus et les moyens mis à disposition pour vous les approprier.</li>
-                    <li>La carte et les dates de tournée de Chateau Peyrines</li>
-                    <li>Les moyens de contacter un des travailleurs ou intervenants de chateau Peyrines</li>
-                    <li>En bas de chaque page, une série de liens cliquables, vous permet d'accéder à différentes rubriques, si vous êtes concernés, vous savez sur lesquelles cliquer.</li>
-                </ul>
-            </article>
+    <main>
+        <section id="accueil">
+            <h2>Accueil</h2>
+            <section class="information">
+                <h3>Présentation du site</h3>
+                    <p>Château peyrines n'est pas un chateau, bien qu'il y ait eu un chateau autrefois, aujourd'hui vous y trouverez un domaine viticole. Sur ce domaine viticole, vous pourrez nous y voir, nous sommes des producteurs récoltant du Cabernet, du Sauvignon avec lesquels nous élaborons des vins.</p>
+                    <p>Quels vins? Du vin blanc sec, du rouge supérieur(c'est comme ça qu'il est appelé), des Bulles de Peyrines(qui ne s'appelle pas Champagne parce que ce n'est pas comme ça qu'on l'appelle), du vin rosé, du vin blanc sec et puisque l'on nomme tout le monde on l'appelle Haut Benauge.
+                        <br>Pour avoir plus de détails sur le moyen d'accéder à tous nos trésors voici un lien vers notre <a href="#vins-tarifs"><img class="picto-lien" src="/public/img/picto-bouteille.png" alt="dessin de bouteille"> Cataloque</a>.
+                    </p>
+                    <p>Nous sommes producteurs récoltant, je l'ai déja dit, c'est état de fait ne nous empêche pas de nous déplacer. Avec une camionette nous transportons quelques unes de nos bouteilles à divers endroits en France à divers moments <br>
+                        Afin que vous puissiez connaitre les dates de nos dégustations-vente, livraison et autres déplacements voici un lien vers les dates de la <a href="#tournee"><img class="picto-lien" src="/public/img/picto-tourne.png" alt="dessin de camionette">tournée</a>. </p>
+                    <p>Si enfin, vous désirez, nous parler, nous écrire ou venir nous voir, voici un autre lien vers la page <a href="#contact">Contact</a></p>
+                    <p>Dans le pied de site, une série de liens cliquables, vous permet d'accéder à différentes rubriques, si vous êtes concernés, vous savez sur lesquelles cliquer.</p>
+            </section>
         </section>
-        <section id="vins-tarifs">
-            <h1>Catalogue</h1>
-            <h2>Tarifs des vins</h2>
-            <p>Téléchargement tarifs 2022-2023 <a href="/public/docs/PEYRINES Tarifs Expéditions 22-2023.pdf">tarifs expéditions-2022-2023</a></p>
+        <section id="catalogue">
+            <h2>Catalogue</h2>
+            <section id="vins-tarifs">
+            <h3>Tarifs des vins</h3>
+            <p>Téléchargement tarifs 2022-2023 <a href="/public/docs/peyrines-tarifs-expeditions-22-2023.pdf">tarifs expéditions-2022-2023</a></p>
             <?php
             require_once("../model/catalog_model.php");
             //Chargement du catalogue depuis la base de données
@@ -51,6 +53,7 @@
             $showRoomView=$viewCatalog->getView($categoriesCatalog);
             echo $showRoomView;
             ?>
+            </section>
             <fieldset class="conditionsvente">
                 <legend>Conditions de vente</legend>
                 <p>La livraison se fait à partir de 36 bouteilles.</p>
@@ -66,7 +69,7 @@
             <?php require_once("../model/tour_model.php");
             $tour=new TourModel("../json/tournee.json");
             $tourFull=$tour->getTour()?>
-            <h1>Tournée</h1>
+            <h2>Tournée</h2>
             <article>
                 <script id="tourData">
                 <!--Récupération du json de la tournée-->
@@ -83,8 +86,16 @@
                 $viewTour=new TourView;
                 $displayDates= $viewTour->getView($tourFull->events);
                 echo $displayDates;?>
-                <script type="text/javascript" src="js/tour.js"></script>
+                <script src="js/tour.js"></script>
             </article>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="information">
+                <p>Adresse : Chateau Peyrines, 33410 Mourens, France <br>Visite & dégustation sur place</p>
+                <p>Téléphone :+33 05 56 61 98 05</p>
+                <p>Mail : contact@chateau-peyrines.com</p>
+            </div>
         </section>
     </main>
     <!--Inclusion du footer -->
