@@ -155,9 +155,8 @@ body {
     color: rgb(148, 43, 43);
     display: flex;
     flex-direction: column;
-    max-width: fit-content;
-    min-width: fit-content;
     align-items: center;
+    justify-content: center;
   }
   .lien:hover{
     border-style:solid;
