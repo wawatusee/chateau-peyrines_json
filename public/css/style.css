@@ -56,6 +56,18 @@ body {
     font-weight: lighter;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+  /*.logo{display:none;}*/
+  @media only screen and (max-width: 600px){
+    .logo{display:none;}
+    header{
+      background-image:linear-gradient(rgb(32, 7, 7),rgba(32, 7, 7, 0.493)), url(/public/img/pierre-negatif.png);
+      background-repeat:no-repeat;
+      background-position:50% 50%;
+      background-size: contain; 
+
+    }
+  }
+
   /*End header*/
 /**********************/
   /*MENUS*/
