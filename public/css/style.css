@@ -124,20 +124,58 @@ body {
   }
     /*End mainMENUS*/
 /**********************/
-/*Main*/
-main{
-  justify-self: center;
-}
-p{
-  max-width:600px;
-  margin: auto;
-}
-.picto-lien{
-  height: 120px;
-}
-/*endMain*/
-  /*Catalogue*/
+  /*Main*/
   /**********************/
+  main{
+    justify-self: center;
+  }
+  /*p{
+    max-width:600px;
+    margin: auto;
+  }*/
+  .picto-lien{
+    height: 120px;
+  }
+  /*endMain*/
+  /**********************/
+  /**********************/
+  /*Présentation*/
+  .presentation{
+    display: flex;
+    justify-content: flex-start;
+    margin:var(--standartspace);
+  }
+  .presentation span{
+    /*width: 66%;*/
+    max-width: 500px;
+  }
+  .lien{
+    text-decoration: none;
+    background-color: rgb(219, 231, 227);
+    color: rgb(148, 43, 43);
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    min-width: fit-content;
+    align-items: center;
+  }
+  .lien:hover{
+    border-style:solid;
+    background-color:pink;
+  }
+  .lien img{
+    height: 120px;
+  }
+  .lien,.presentation span{
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(219, 231, 227);
+    margin-left:var(--standartspace);
+  }
+  /*end presentation*/
+  /**********************/
+  /**********************/
+  /*Catalogue*/
   .showcase{
     width: fit-content;
     padding: 5px;
