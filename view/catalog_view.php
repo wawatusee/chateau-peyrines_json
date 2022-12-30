@@ -9,7 +9,7 @@
             foreach ($showroom->Products as $product){
                 //Chaque produit
                 $this->catalogView.="<div class='product'>".$product->année." ".$product->product;
-                $this->catalogView.="<details class='detailsvin'><summary>Vin</summary>";
+                $this->catalogView.="<details class='detailsvin'><summary>Descriptif</summary>";
                 if (isset($product->image)){
                     $this->catalogView.="<img class='imgcatalog' alt='photo du produit' src='img/catalog/".$product->image."'>";
                 };

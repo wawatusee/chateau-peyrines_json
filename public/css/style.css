@@ -4,15 +4,18 @@
   --content-padding:5px;
   --font:"Comfortaa-Regular.ttf";
 }
-  /*Variables Colors*/
+  /*Variables Colors images*/
   :root{
     --main-bg-color:#333;
     --main-clear-color:#ccc;
+    --vinrouge-color:#663333;
+    --vinblanc-color:#ccff33;
+    --vinrose-color:#ffcccc;
     --rs-bckgrnd-img:url("../img/menu_rs.png");
   }
   @fontface{
     font-family:"comfortaa";
-    src:url("css/fonts/Comfortaa-Regular.ttf");
+    src:url("public/css/fonts/Comfortaa-Regular.ttf");
   }
 
 body {
@@ -27,8 +30,6 @@ body {
     height: 100vh;
     gap: var(--standartspace);
   }
-
-
   /*Fonts*/
 
   /*Header*/
@@ -60,11 +61,10 @@ body {
   @media only screen and (max-width: 600px){
     .logo{display:none;}
     header{
-      background-image:linear-gradient(rgb(32, 7, 7),rgba(32, 7, 7, 0.493)), url(/public/img/pierre-negatif.png);
+      background-image:linear-gradient(rgb(32, 7, 7),rgba(32, 7, 7, 0.493)), url(/public/img/main-logo.png);
       background-repeat:no-repeat;
       background-position:50% 50%;
       background-size: contain; 
-
     }
   }
 
@@ -163,8 +163,8 @@ body {
   }
   .lien{
     text-decoration: none;
-    background-color: rgb(219, 231, 227);
-    color: rgb(148, 43, 43);
+    background-color:var(--main-clear-color);
+    color: var(--vinrouge-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -172,7 +172,7 @@ body {
   }
   .lien:hover{
     border-style:solid;
-    background-color:pink;
+    background-color:var(--vinrose-color);
   }
   .lien img{
     height: 20px;
@@ -180,7 +180,7 @@ body {
   .lien,.presentation span{
     border-radius: 10px;
     padding: 5px;
-    background-color: rgb(219, 231, 227);
+    background-color: var(--main-clear-color);
     margin-left:var(--standartspace);
   }
   /*end presentation*/
@@ -206,26 +206,27 @@ body {
   }
   .detailsvin p{
     font-size: small;
-    border: solid 0.5px #abc765;
+    border: solid 0.5px var(--vinblanc-color);
     border-radius: 0.5em;
     text-align: center;
   }
   .prices{
     display:flex;
-    justify-content: space-around;
+ 
+    justify-content: space-between;
     flex-wrap: wrap;
   }
   /*Catalogue prix sous forme de tableaux*/
   .packaging{
     display:inline;
     text-align: center;
-    border: 1px solid #333;
+    border: 1px solid var(--main-bg-color);
   }
   .quantite{
     color: var(--main-clear-color);
   }
   .price{
-    background-color: #aaa;
+    background-color: var(--main-clear-color);
     color: white;
   }
   thead{
@@ -253,11 +254,11 @@ body {
   border:solid 0.4px;
 }
 .tourtable tr:nth-child(odd){
-  background-color: #6c6c6c;
+  background-color: var(--main-bg-color);
   color: whitesmoke;
 }
 .tourtable tr:nth-child(even){
-  background-color: #acacac;
+  background-color: var(--main-clear-color);
 }
 /*End Tableau dates*/
 /*End Tournée*/
