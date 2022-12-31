@@ -34,8 +34,8 @@ body {
 
   /*Header*/
   header{
-    background:var(--main-bg-color);
-    color: white;
+    background:var(--vinblanc-color);
+    color: var(--vinrouge-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,7 +55,7 @@ body {
     display: block;
     font-style: normal;
     font-weight: lighter;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "comfortaa",Verdana, Geneva, Tahoma, sans-serif;
   }
   /*.logo{display:none;}*/
   @media only screen and (max-width: 600px){
@@ -82,7 +82,7 @@ body {
   .responsiveMenu a {
     float: left;
     display: block;
-    color: var(--main-clear-color);
+    color: var(--vinblanc-color);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -91,7 +91,8 @@ body {
   
   .responsiveMenu a:hover {
     background-color: #ddd;
-    color: black;
+    color: var(--vinrouge-color);
+    text-decoration: underline;
   }
   
   .responsiveMenu a.active {
@@ -140,6 +141,7 @@ body {
   /**********************/
   main{
     justify-self: center;
+    max-width :800px;
   }
   /*p{
     max-width:600px;
@@ -150,6 +152,20 @@ body {
   }
   /*endMain*/
   /**********************/
+  /*Titres*/
+  h2,h3{
+    color: var(--vinrouge-color);
+  }
+  h2{
+    text-decoration: underline solid;
+  }
+  h3{
+    text-decoration: overline solid;
+  }
+
+   
+  /*Fin Titres*/
+  /**********************/
   /**********************/
   /*Présentation*/
   .presentation{
@@ -158,12 +174,14 @@ body {
     margin:var(--standartspace);
   }
   .presentation span{
+    display: flex;
     /*width: 66%;*/
-    max-width: 500px;
+    /*max-width: 500px;*/
+    flex-grow: 2;
   }
   .lien{
     text-decoration: none;
-    background-color:var(--main-clear-color);
+    /*background-color:var(--main-clear-color);*/
     color: var(--vinrouge-color);
     display: flex;
     flex-direction: column;
@@ -175,18 +193,26 @@ body {
     background-color:var(--vinrose-color);
   }
   .lien img{
-    height: 20px;
+    height: 50px;
   }
   .lien,.presentation span{
-    border-radius: 10px;
+    border-radius: 2px;
     padding: 5px;
-    background-color: var(--main-clear-color);
     margin-left:var(--standartspace);
   }
+  .presentation span,.lien:hover{
+    background-color: var(--main-clear-color);
+  }
+  .lien:hover{
+    background-color: var(--main-clear-color);
+    text-decoration: underline;
+    border: none;
+  }
+
   /*end presentation*/
   /**********************/
   /**********************/
-  /*Catalogue*/
+  /*CATALOGUE*/
   .showcase{
     width: fit-content;
     padding: 5px;
@@ -198,7 +224,6 @@ body {
   }
   .detailsvin {
     display: flex;
-    
   }
   .imgcatalog{
     width: 90px;
@@ -216,7 +241,8 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
   }
-  /*Catalogue prix sous forme de tableaux*/
+  /********************/
+  /*Tableaux de prix*/
   .packaging{
     display:inline;
     text-align: center;
@@ -232,23 +258,27 @@ body {
   thead{
     background-color:var(--main-bg-color);
   }
+  /*end Tableaux de prix*/
+  /********************/
   .conditionsvente{
     background-color: var(--main-clear-color);
     height:8em;
     overflow: auto;
     font-size: 0.8rem;
-
   }
-  /*End Catalogue*/
+  /*End CATALOGUE*/
 /**********************/
 /**********************/
-/*Tournée*/
+/*TOURNEE*/
+/**********************/
 /*Carte*/
 #map {
   max-width:700px;
   height: 500px;
   }
 /*End Carte*/
+/**********************/
+/**********************/
 /*Tableau dates*/
 .tourtable{
   border:solid 0.4px;
@@ -261,15 +291,28 @@ body {
   background-color: var(--main-clear-color);
 }
 /*End Tableau dates*/
-/*End Tournée*/
+/**********************/
+/*End TOURNEE*/
+/**********************/
+/**********************/
+/*CONTACT*/
+/*reuse of .presentation no proper css for instant*/
+/*endCONTACT*/
+/**********************/
 /**********************/
 /*Footer*/
 footer{
-  background-color:var(--main-bg-color);
   color:var(--main-clear-color);
 }
     /*footerNav*/
+    #sitemap{
+      background-color:var(--main-bg-color);
+    }
+    #sitemap h2,#sitemap h3{
+      color: var(--vinrose-color);
+    }
     .footerNav{
+      background-color:var(--main-bg-color);
       display: flex;
       flex-direction: row;
       justify-content: space-around;
@@ -278,18 +321,20 @@ footer{
     .navfooterbloc a{
       display: block;
       text-decoration: none;
-      color: whitesmoke;
+      color: var(--vinblanc-color);
+    }
+    .navfooterbloc a:hover{
+      text-decoration: underline;
+      color: var(--vinrose-color);
     }
     /* end footerNav*/
-
-    /*RSmenu*/
 /**********************/
-#menuRS{
-  background-color: white;
-}
+/**********************/
+    /*RSmenu*/
+
 /*Block nav rs*/
 .nav-rs{
-  background-color:pink;
+  background-color:var(--vinblanc-color);
   display: flex;
   justify-content:center;
 }
@@ -301,7 +346,6 @@ height: 30px;
 width: 30px;
 background-image: url("../img/logo-rs_30px.png");
 background-position-y:0;
-margin: var(--standartspace);
 }
 .rs:hover{
   background-position-y:-30px;
@@ -315,4 +359,7 @@ background-position-x:-30px;
 .linkedin{
 background-position-x:-60px;
 }
-/*End Block nav rs*/
+/*End RSmenu*/
+/**********************/
+/*end footer*/
+/**********************/
