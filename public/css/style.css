@@ -165,26 +165,32 @@ body {
   h3{
     text-decoration: overline solid;
   }
-  h5{
-    border:solid 0.5px;
-    border-radius: 5px;
-    font-size: 1.3em;
-    background-color: var(--main-bg-color);
+  h4{
+    color: var(--vinrouge-color);
+    text-align: center;
+    text-decoration: underline overline solid 0.3px;
   }
-  .blanc h5{
+  h5{
+    border-radius: 5px;
+    background-color: var(--main-bg-color);
+    padding-left: var(--content-padding);
+    font-size: 1.2em;
+    margin:var(--content-padding);
+  }
+  .blanc h5,.blanc .prices .packaging .quantite{
     color:var(--vinblanc-color)
   }
-  .rosé h5{
+  .rosé h5,.rosé .prices .packaging .quantite{
     color: var(--vinrose-color);
   }
-  .rouge h5{
+  .rouge h5,.rouge .prices .packaging .quantite{
     background-color: var(--main-clear-color);
     color: var(--vinrouge-color);
   }
-  .moelleux h5{
+  .moelleux h5,.moelleux .prices .packaging .quantite{
     color:var(--blancmoelleux-color);
   }
-  .méthode h5{
+  .méthode h5, .méthode .prices .packaging .quantite{
     color:var(--champagne-color);
   }
    
@@ -199,8 +205,6 @@ body {
   }
   .presentation span{
     display: flex;
-    /*width: 66%;*/
-    /*max-width: 500px;*/
     flex-grow: 2;
   }
   .lien{
@@ -217,7 +221,7 @@ body {
     background-color:var(--vinrose-color);
   }
   .lien img{
-    height: 50px;
+    height: 70px;
   }
   .lien,.presentation span{
     border-radius: 2px;
@@ -272,12 +276,12 @@ body {
     text-align: center;
     border: 1px solid var(--main-bg-color);
   }
-  .quantite{
+  /*.quantite{
     color: var(--main-clear-color);
-  }
+  }Qualifié dans les titres*/
   .price{
     background-color: var(--main-clear-color);
-    color: white;
+    color: var(--main-bg-color);
   }
   thead{
     background-color:var(--main-bg-color);
@@ -289,6 +293,7 @@ body {
     height:8em;
     overflow: auto;
     font-size: 0.8rem;
+    line-height: 100%;
   }
   /*End CATALOGUE*/
 /**********************/
@@ -334,7 +339,7 @@ footer{
       margin-bottom: 5px ;
     }
     #sitemap h2,#sitemap h3{
-      color: var(--vinrose-color);
+      color: white;
     }
     .footerNav{
       background-color:var(--main-bg-color);
