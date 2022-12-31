@@ -11,8 +11,11 @@
     --vinrouge-color:#663333;
     --vinblanc-color:#ccff33;
     --vinrose-color:#ffcccc;
+    --blancmoelleux-color:#ffcc33;
+    --champagne-color:#fad6a5;
     --rs-bckgrnd-img:url("../img/menu_rs.png");
   }
+    /*Fonts*/
   @fontface{
     font-family:"comfortaa";
     src:url("public/css/fonts/Comfortaa-Regular.ttf");
@@ -30,7 +33,7 @@ body {
     height: 100vh;
     gap: var(--standartspace);
   }
-  /*Fonts*/
+
 
   /*Header*/
   header{
@@ -162,7 +165,28 @@ body {
   h3{
     text-decoration: overline solid;
   }
-
+  h5{
+    border:solid 0.5px;
+    border-radius: 5px;
+    font-size: 1.3em;
+    background-color: var(--main-bg-color);
+  }
+  .blanc h5{
+    color:var(--vinblanc-color)
+  }
+  .rosé h5{
+    color: var(--vinrose-color);
+  }
+  .rouge h5{
+    background-color: var(--main-clear-color);
+    color: var(--vinrouge-color);
+  }
+  .moelleux h5{
+    color:var(--blancmoelleux-color);
+  }
+  .méthode h5{
+    color:var(--champagne-color);
+  }
    
   /*Fin Titres*/
   /**********************/
@@ -307,6 +331,7 @@ footer{
     /*footerNav*/
     #sitemap{
       background-color:var(--main-bg-color);
+      margin-bottom: 5px ;
     }
     #sitemap h2,#sitemap h3{
       color: var(--vinrose-color);
@@ -318,10 +343,14 @@ footer{
       justify-content: space-around;
       margin-bottom: var(--standartspace);
     }
+    .navfooterbloc{
+      margin-bottom: var(--standartspace);
+    }
     .navfooterbloc a{
       display: block;
       text-decoration: none;
       color: var(--vinblanc-color);
+      /**/
     }
     .navfooterbloc a:hover{
       text-decoration: underline;
@@ -346,6 +375,7 @@ height: 30px;
 width: 30px;
 background-image: url("../img/logo-rs_30px.png");
 background-position-y:0;
+margin: var(--standartspace);
 }
 .rs:hover{
   background-position-y:-30px;
