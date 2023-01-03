@@ -201,10 +201,13 @@ body {
     display: flex;
     justify-content: flex-start;
     margin:var(--standartspace);
+    flex-wrap: wrap;
   }
   .presentation span{
     display: flex;
     flex-grow: 2;
+    min-width: 300px;
+    
   }
   .lien{
     text-decoration: none;
