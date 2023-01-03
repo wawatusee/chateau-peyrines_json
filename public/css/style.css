@@ -37,7 +37,7 @@ body {
 
   /*Header*/
   header{
-    background:var(--vinblanc-color);
+    background:var(--main-clear-color);
     color: var(--vinrouge-color);
     display: flex;
     flex-direction: column;
@@ -85,7 +85,7 @@ body {
   .responsiveMenu a {
     float: left;
     display: block;
-    color: var(--vinblanc-color);
+    color: var(--main-clear-color);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -174,24 +174,23 @@ body {
     border-radius: 5px;
     background-color: var(--main-bg-color);
     padding-left: var(--content-padding);
-    font-size: 1.2em;
     margin:var(--content-padding);
   }
   .blanc h5,.blanc .prices .packaging .quantite{
-    color:var(--vinblanc-color)
+    background-color:var(--vinblanc-color)
   }
   .rosé h5,.rosé .prices .packaging .quantite{
-    color: var(--vinrose-color);
+    background-color: var(--vinrose-color);
   }
   .rouge h5,.rouge .prices .packaging .quantite{
     background-color: var(--main-clear-color);
     color: var(--vinrouge-color);
   }
   .moelleux h5,.moelleux .prices .packaging .quantite{
-    color:var(--blancmoelleux-color);
+    background-color:var(--blancmoelleux-color);
   }
   .méthode h5, .méthode .prices .packaging .quantite{
-    color:var(--champagne-color);
+    background-color:var(--champagne-color);
   }
    
   /*Fin Titres*/
@@ -227,9 +226,6 @@ body {
     border-radius: 2px;
     padding: 5px;
     margin-left:var(--standartspace);
-  }
-  .presentation span,.lien:hover{
-    background-color: var(--main-clear-color);
   }
   .lien:hover{
     background-color: var(--main-clear-color);
@@ -272,6 +268,7 @@ body {
   /********************/
   /*Tableaux de prix*/
   .packaging{
+    font-size: 0.8em;
     display:inline;
     text-align: center;
     border: 1px solid var(--main-bg-color);
@@ -354,7 +351,7 @@ footer{
     .navfooterbloc a{
       display: block;
       text-decoration: none;
-      color: var(--vinblanc-color);
+      color: var(--main-clear-color);
       /**/
     }
     .navfooterbloc a:hover{
@@ -368,7 +365,7 @@ footer{
 
 /*Block nav rs*/
 .nav-rs{
-  background-color:var(--vinblanc-color);
+  background-color:var(--main-clear-color);
   display: flex;
   justify-content:center;
 }
