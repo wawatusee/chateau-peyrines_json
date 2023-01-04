@@ -291,6 +291,7 @@ body {
   /*end Tableaux de prix*/
   /********************/
   .conditionsvente{
+    border: none;
     background-color: var(--main-clear-color);
     height:8em;
     overflow: auto;
