@@ -276,7 +276,7 @@ body {
     font-size: 0.8em;
     display:inline;
     text-align: center;
-    border: 1px solid var(--main-bg-color);
+    border-left: 0.5px solid var(--main-bg-color);
   }
   /*.quantite{
     color: var(--main-clear-color);
