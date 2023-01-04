@@ -15,7 +15,7 @@
                 }else $couleurvin="moelleux";
                 //Fin des trois lignes
                 $this->catalogView.="<div class='product ".$couleurvin."'><h5>".$product->année." ".$product->product."</h5>";
-                $this->catalogView.="<details class='detailsvin'><summary>Descriptif</summary>";
+                $this->catalogView.="<details class='detailsvin' open><summary>Descriptif</summary>";
                 if (isset($product->image)){
                     $this->catalogView.="<img class='imgcatalog' alt='photo du produit' src='img/catalog/".$product->image."'>";
                 };
