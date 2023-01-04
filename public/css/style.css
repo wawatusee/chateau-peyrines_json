@@ -22,7 +22,8 @@
   }
 
 body {
-  font-family: "comfortaa";
+  /*font-family: "comfortaa";*/
+  font-family: "comfortaa","Raleway","Helvetica Neue",tahoma,Helvetica,Roboto,Arial,sans-serif;
     margin: 0;
     /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
     display: grid; /*Transforme la balise body en contenur grid*/
@@ -158,6 +159,7 @@ body {
   /*Titres*/
   h2,h3{
     color: var(--vinrouge-color);
+
   }
   h2{
     text-decoration: underline solid;
