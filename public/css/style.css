@@ -285,9 +285,7 @@ body {
     background-color: var(--main-clear-color);
     color: var(--main-bg-color);
   }
-  thead{
-    background-color:var(--main-bg-color);
-  }
+
   /*end Tableaux de prix*/
   /********************/
   .conditionsvente{
@@ -316,11 +314,15 @@ body {
   width: 100%;
   border:solid 0.4px;
 }
-.tourtable tr:nth-child(odd){
+.tourtable>thead>tr{
+  background-color: var(--main-clear-color  );
+  color: var(--vinrouge-color);
+}
+.tourtable>tbody>tr:nth-child(odd){
   background-color: var(--main-bg-color);
   color: whitesmoke;
 }
-.tourtable tr:nth-child(even){
+.tourtable>tbody>tr:nth-child(even){
   background-color: var(--main-clear-color);
 }
 /*End Tableau dates*/
