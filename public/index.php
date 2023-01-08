@@ -24,7 +24,7 @@
     <main>
         <section id="accueil">
             <h2>Accueil</h2> 
-            <p>Présentation du site, des produits et service de Chateau Peyrines.</p>
+            <p>Présentation des produits, service et du site de Chateau Peyrines.</p>
             <section>
                 <h3>Présentation du site</h3>
                 <div class="presentation">
@@ -85,17 +85,20 @@
                 <!--Récupération du json de la tournée-->
                 const a_tour=<?php echo json_encode($tourFull,true)?>
                 </script>
-                <h3>Carte</h3>
-                <div id="map">
-                <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
-                <!--Ici la carte des lieux d'events (leaflet+openmap)-->
-                </div>
                 <h3>Dates</h3>
+                <div class="dates">
                 <!--/*Liste des dates des dits events(tableau)*/-->
                 <?php require_once("../view/tour_view.php");
                 $viewTour=new TourView;
                 $displayDates= $viewTour->getView($tourFull->events);
                 echo $displayDates;?>
+                </div>
+                <h3>Carte</h3>
+                <div id="map">
+                <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+                <!--Ici la carte des lieux d'events (leaflet+openmap)-->
+                </div>
+
                 <script src="js/tour.js"></script>
             </article>
         </section>
