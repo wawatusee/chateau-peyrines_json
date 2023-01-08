@@ -14,6 +14,20 @@
             "type":"Dégustation Vente",
             "text":"",
             "état":"1"
+        },
+        {
+            "date":"2023-02-11",
+            "location":{"nom":"Issy les Moulineaux-92","lat": 48.8245,"lon": 2.2743},
+            "type":"Dégustation Vente",
+            "text":"",
+            "état":"1"
+        },
+        {
+            "date":"2023-02-12",
+            "location":{"nom":"La Celle-Saint-Cloud-78","lat": 48.8498,"lon": 2.1325},
+            "type":"Dégustation Vente",
+            "text":"",
+            "état":"1"
         }
     ]
 }
