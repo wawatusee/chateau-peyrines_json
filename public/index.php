@@ -29,7 +29,7 @@
                 <h3>Présentation du site</h3>
                 <div class="presentation">
                     <a href="#accueil" class="lien"><img class="picto-lien" src="/public/img/picto-accueil.png" alt="dessin du chateau">Accueil</a><span>Château Peyrines, bonjour à toi citoyen de plus de 18 ans, bienvenu sur le site de Chateau Peyrines.<br> Chateau Peyrines s'appelle chateau-Peyrines parce qu'autrefois il y avait un château là où aujourd'hui il y a nos vignes.
-Et "château" pour un nom de vin, c'est bien. Vous voilà donc sur le site internet de Château Peyrines vous trouverez ici un sobre descriptif de Château-Peyrines,  le catalogue de ses produits disponibles à la commande et les moyens duvers de contacter les travailleurs de ce domaine.
+Et "château" pour un nom de vin, c'est bien. Vous voilà donc sur le site internet de Château Peyrines vous trouverez ici un sobre descriptif de Château-Peyrines,  le catalogue de ses produits disponibles à la commande et les moyens divers de contacter les travailleurs de ce domaine.
 </span>
                 </div>
                 <div class="presentation">
