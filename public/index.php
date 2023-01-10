@@ -28,22 +28,18 @@
             <section>
                 <h3>Présentation du site</h3>
                 <div class="presentation">
-                    <a href="#accueil" class="lien"><img class="picto-lien" src="/public/img/picto-accueil.png" alt="dessin du chateau">Accueil</a><span>Château peyrines n'est pas un chateau, bien qu'il y ait eu un chateau autrefois, aujourd'hui vous y trouverez un domaine viticole. Sur ce domaine viticole, vous pourrez nous y voir, nous sommes des producteurs récoltant du Cabernet, du Sauvignon avec lesquels nous élaborons des vins.</span>
+                    <a href="#accueil" class="lien"><img class="picto-lien" src="/public/img/picto-accueil.png" alt="dessin du chateau">Accueil</a><span>Château Peyrines, bonjour à toi citoyen de plus de 18 ans, bienvenu sur le site de Chateau Peyrines.<br> Chateau Peyrines s'appelle chateau-Peyrines parce qu'autrefois il y avait un château là où aujourd'hui il y a nos vignes.
+Et "château" pour un nom de vin, c'est bien. Vous voilà donc sur le site internet de Château Peyrines vous trouverez ici un sobre descriptif de Château-Peyrines,  le catalogue de ses produits disponibles à la commande et les moyens duvers de contacter les travailleurs de ce domaine.
+</span>
                 </div>
                 <div class="presentation">
-                    <a href="#catalogue" class="lien"><img class="picto-lien" src="/public/img/picto-bouteille.png" alt="dessin de bouteille de vin">Catalogue</a><span>Quels vins? Du vin blanc sec, du rouge supérieur(c'est comme ça qu'il est appelé), des Bulles de Peyrines(qui ne s'appelle pas Champagne parce que ce n'est pas comme ça qu'on l'appelle), du vin rosé, du vin blanc sec et puisque l'on nomme tout le monde on l'appelle Haut Benauge.</span>
+                    <a href="#catalogue" class="lien"><img class="picto-lien" src="/public/img/picto-bouteille.png" alt="dessin de bouteille de vin">Catalogue</a><span>Le catalogue présente tous les vins de Château-Peyrines que vous pouvez commander, vin blanc sec, vin rouge supérieur, vin moelleux, bulles de Peyrines, vin rosé.
+Le catalogue présente les tarifs de chacun de ces vins, sur place ou livrés, selon les quantités désirées.</span>
                 </div>
                 <div class="presentation">
-                    <a href="#tournee" class="lien"><img class="picto-lien" src="/public/img/picto-tourne.png" alt="dessin de camionette">Tournée</a><span>Nous sommes producteurs récoltant, je l'ai déja dit, c'est état de fait ne nous empêche pas de nous déplacer. Avec une camionette nous transportons quelques unes de nos bouteilles à divers endroits en France à divers moments <br>
-                        Afin que vous puissiez connaitre les dates de nos dégustations-vente, livraison et autres déplacements voici un lien vers les dates de la</span>
+                    <a href="#tournee" class="lien"><img class="picto-lien" src="/public/img/picto-tourne.png" alt="dessin de camionette">Tournée</a><span>Nous déplaçons avec une camionette quelques unes de nos bouteilles à divers endroits en France à divers moments <br>
+                    Dégustations-vente, livraison et autres déplacements voici un lien vers les dates de cette tournée annuelle en France.</span>
                 </div>
-                   <!-- <p>
-                        <br>Pour avoir plus de détails sur le moyen d'accéder à tous nos trésors voici un lien vers notre <a href="#vins-tarifs"><img class="picto-lien" src="/public/img/picto-bouteille.png" alt="dessin de bouteille"> Cataloque</a>.
-                    </p>
-                    <p>Nous sommes producteurs récoltant, je l'ai déja dit, c'est état de fait ne nous empêche pas de nous déplacer. Avec une camionette nous transportons quelques unes de nos bouteilles à divers endroits en France à divers moments <br>
-                        Afin que vous puissiez connaitre les dates de nos dégustations-vente, livraison et autres déplacements voici un lien vers les dates de la <a href="#tournee"><img class="picto-lien" src="/public/img/picto-tourne.png" alt="dessin de camionette">tournée</a>. </p>
-                    <p>Si enfin, vous désirez, nous parler, nous écrire ou venir nous voir, voici un autre lien vers la page <a href="#contact">Contact</a></p>
-                    <p>Dans le pied de site, une série de liens cliquables, vous permet d'accéder à différentes rubriques, si vous êtes concernés, vous savez sur lesquelles cliquer.</p>-->
             </section>
         </section>
         <section id="catalogue">
