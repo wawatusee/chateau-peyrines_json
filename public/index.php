@@ -101,7 +101,7 @@ Le catalogue présente les tarifs de chacun de ces vins, sur place ou livrés, s
         <section id="contact">
             <h2>Contact</h2>
             <div class="presentation">
-            <a href="tel:+33 05 56 61 98 05"><img src="/public/img/picto-map" alt="picto-map"></a><span>Adresse : Chateau Peyrines, 33410 Mourens, France <br>Visite & dégustation sur place</span>
+            <a href="https://goo.gl/maps/WXbuRqfbw21NUYKFA"><img src="/public/img/picto-map" alt="picto-map"></a><span>Adresse : Chateau Peyrines, 33410 Mourens, France <br>Visite & dégustation sur place</span>
             </div>
             <div class="presentation">
                 <a href="tel:+33055661905"><img src="/public/img/picto-phone" alt="picto-phone"></a><span>Téléphone :+33 05 56 61 98 05</span>
