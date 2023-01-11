@@ -13,7 +13,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 let popup = L.popup()
     .setLatLng([44.648166, -0.228111])
-    .setContent("<a href='https://www.openstreetmap.org/#map=15/44.6473/-0.2346&layers=N'>Chateau Peyrines</a><BR> Maison mère")
+    .setContent("<a href='https://www.openstreetmap.org/#map=15/44.64754554177824/-0.22927532698567718&layers=N'>Chateau Peyrines</a><BR> Maison mère")
     .openOn(map);
     let lieux=a_tour.events;
     for (index in lieux){
