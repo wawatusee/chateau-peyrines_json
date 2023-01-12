@@ -4,19 +4,26 @@
   --content-padding:5px;
   --font:"Comfortaa-Regular.ttf";
 }
-  /*Variables Colors*/
+  /*Variables Colors images*/
   :root{
     --main-bg-color:#333;
-    --main-clear-color:#ccc;
+    --main-clear-color:#f5f6f7;
+    --vinrouge-color:#663333;
+    --vinblanc-color:#ccff33;
+    --vinrose-color:#ffcccc;
+    --blancmoelleux-color:#ffcc33;
+    --champagne-color:#fad6a5;
     --rs-bckgrnd-img:url("../img/menu_rs.png");
   }
+    /*Fonts*/
   @fontface{
     font-family:"comfortaa";
-    src:url("css/fonts/Comfortaa-Regular.ttf");
+    src:url("public/css/fonts/Comfortaa-Regular.ttf");
   }
 
 body {
-  font-family: "comfortaa";
+  /*font-family: "comfortaa";*/
+  font-family: "comfortaa","Raleway","Helvetica Neue",tahoma,Helvetica,Roboto,Arial,sans-serif;
     margin: 0;
     /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
     display: grid; /*Transforme la balise body en contenur grid*/
@@ -29,12 +36,10 @@ body {
   }
 
 
-  /*Fonts*/
-
   /*Header*/
   header{
-    background:var(--main-bg-color);
-    color: white;
+    background:var(--main-clear-color);
+    color: var(--vinrouge-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,8 +59,19 @@ body {
     display: block;
     font-style: normal;
     font-weight: lighter;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "comfortaa",Verdana, Geneva, Tahoma, sans-serif;
   }
+  /*.logo{display:none;}*/
+  @media only screen and (max-width: 600px){
+    .logo{display:none;}
+   /* header{
+      background-image:linear-gradient(rgb(32, 7, 7),rgba(32, 7, 7, 0.493)), url(/public/img/main-logo.png);
+      background-repeat:no-repeat;
+      background-position:50% 50%;
+      background-size: contain; 
+    }*/
+  }
+
   /*End header*/
 /**********************/
   /*MENUS*/
@@ -79,7 +95,8 @@ body {
   
   .responsiveMenu a:hover {
     background-color: #ddd;
-    color: black;
+    color: var(--vinrouge-color);
+    text-decoration: underline;
   }
   
   .responsiveMenu a.active {
@@ -124,22 +141,109 @@ body {
   }
     /*End mainMENUS*/
 /**********************/
-/*Main*/
-main{
-  justify-self: center;
-}
-p{
-  max-width:600px;
-  margin: auto;
-}
-.picto-lien{
-  height: 120px;
-}
-/*endMain*/
-  /*Catalogue*/
+  /*Main*/
   /**********************/
+  main{
+    justify-self: center;
+    max-width :800px;
+  }
+  /*p{
+    max-width:600px;
+    margin: auto;
+  }*/
+  .picto-lien{
+    height: 120px;
+  }
+  /*endMain*/
+  /**********************/
+  /*Titres*/
+  h2,h3{
+    color: var(--vinrouge-color);
+
+  }
+  h2{
+    text-decoration: underline solid;
+  }
+  h3{
+    text-decoration: overline solid;
+  }
+  h4{
+    color: var(--vinrouge-color);
+    text-align: center;
+    text-decoration: underline overline solid 0.3px;
+  }
+  h5{
+    border-radius: 5px;
+    background-color: var(--main-bg-color);
+    padding-left: var(--content-padding);
+    margin:var(--content-padding);
+  }
+  .blanc h5,.blanc .prices .packaging .quantite{
+    background-color:var(--vinblanc-color)
+  }
+  .rosé h5,.rosé .prices .packaging .quantite{
+    background-color: var(--vinrose-color);
+  }
+  .rouge h5,.rouge .prices .packaging .quantite{
+    background-color: var(--main-clear-color);
+    color: var(--vinrouge-color);
+  }
+  .moelleux h5,.moelleux .prices .packaging .quantite{
+    background-color:var(--blancmoelleux-color);
+  }
+  .méthode h5, .méthode .prices .packaging .quantite{
+    background-color:var(--champagne-color);
+  }
+   
+  /*Fin Titres*/
+  /**********************/
+  /**********************/
+  /*Présentation*/
+  .presentation{
+    display: flex;
+    justify-content: center;
+    margin:var(--standartspace);
+    flex-wrap: wrap;
+  }
+  .presentation span{
+    display: flex;
+    flex-grow: 2;
+    min-width: 300px;
+    
+  }
+  .lien{
+    text-decoration: none;
+    /*background-color:var(--main-clear-color);*/
+    color: var(--vinrouge-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .lien:hover{
+    border-style:solid;
+    background-color:var(--vinrose-color);
+  }
+  .lien img{
+    height: 70px;
+  }
+  .lien,.presentation span{
+    border-radius: 2px;
+    padding: 5px;
+    margin-left:var(--standartspace);
+  }
+  .lien:hover{
+    background-color: var(--main-clear-color);
+    text-decoration: underline;
+    border: none;
+  }
+
+  /*end presentation*/
+  /**********************/
+  /**********************/
+  /*CATALOGUE*/
   .showcase{
-    width: fit-content;
+    width: 100%;
     padding: 5px;
   }
   .product{
@@ -149,7 +253,6 @@ p{
   }
   .detailsvin {
     display: flex;
-    
   }
   .imgcatalog{
     width: 90px;
@@ -157,89 +260,121 @@ p{
   }
   .detailsvin p{
     font-size: small;
-    border: solid 0.5px #abc765;
+    border: solid 0.5px var(--vinblanc-color);
     border-radius: 0.5em;
     text-align: center;
   }
   .prices{
     display:flex;
-    justify-content: space-around;
+ 
+    justify-content: space-between;
     flex-wrap: wrap;
   }
-  /*Catalogue prix sous forme de tableaux*/
+  /********************/
+  /*Tableaux de prix*/
   .packaging{
+    font-size: 0.8em;
     display:inline;
     text-align: center;
-    border: 1px solid #333;
+    border-left: 0.5px solid var(--main-bg-color);
   }
-  .quantite{
+  /*.quantite{
     color: var(--main-clear-color);
-  }
+  }Qualifié dans les titres*/
   .price{
-    background-color: #aaa;
-    color: white;
+    background-color: var(--main-clear-color);
+    color: var(--main-bg-color);
   }
-  thead{
-    background-color:var(--main-bg-color);
-  }
+
+  /*end Tableaux de prix*/
+  /********************/
   .conditionsvente{
+    border: none;
     background-color: var(--main-clear-color);
     height:8em;
     overflow: auto;
     font-size: 0.8rem;
-
+    line-height: 100%;
   }
-  /*End Catalogue*/
+  /*End CATALOGUE*/
 /**********************/
 /**********************/
-/*Tournée*/
+/*TOURNEE*/
+/**********************/
 /*Carte*/
 #map {
   max-width:700px;
   height: 500px;
   }
 /*End Carte*/
+/**********************/
+/**********************/
 /*Tableau dates*/
 .tourtable{
+  width: 100%;
   border:solid 0.4px;
 }
-.tourtable tr:nth-child(odd){
-  background-color: #6c6c6c;
+.tourtable>thead>tr{
+  background-color: var(--main-clear-color  );
+  color: var(--vinrouge-color);
+}
+.tourtable>tbody>tr:nth-child(odd){
+  background-color: var(--main-bg-color);
   color: whitesmoke;
 }
-.tourtable tr:nth-child(even){
-  background-color: #acacac;
+.tourtable>tbody>tr:nth-child(even){
+  background-color: var(--main-clear-color);
 }
 /*End Tableau dates*/
-/*End Tournée*/
+/**********************/
+/*End TOURNEE*/
+/**********************/
+/**********************/
+/*CONTACT*/
+/*reuse of .presentation no proper css for instant*/
+/*endCONTACT*/
+/**********************/
 /**********************/
 /*Footer*/
 footer{
-  background-color:var(--main-bg-color);
   color:var(--main-clear-color);
 }
     /*footerNav*/
+    #sitemap{
+      background-color:var(--main-bg-color);
+      margin-bottom: 5px ;
+    }
+    #sitemap h2,#sitemap h3{
+      color: white;
+    }
     .footerNav{
+      background-color:var(--main-bg-color);
       display: flex;
       flex-direction: row;
       justify-content: space-around;
       margin-bottom: var(--standartspace);
     }
+    .navfooterbloc{
+      margin-bottom: var(--standartspace);
+    }
     .navfooterbloc a{
       display: block;
       text-decoration: none;
-      color: whitesmoke;
+      color: var(--main-clear-color);
+      /**/
+    }
+    .navfooterbloc a:hover{
+      text-decoration: underline;
+      color: var(--vinrose-color);
     }
     /* end footerNav*/
-
-    /*RSmenu*/
 /**********************/
-#menuRS{
-  background-color: white;
-}
+/**********************/
+    /*RSmenu*/
+
 /*Block nav rs*/
 .nav-rs{
-  background-color:pink;
+  background-color:var(--main-clear-color);
   display: flex;
   justify-content:center;
 }
@@ -265,4 +400,7 @@ background-position-x:-30px;
 .linkedin{
 background-position-x:-60px;
 }
-/*End Block nav rs*/
+/*End RSmenu*/
+/**********************/
+/*end footer*/
+/**********************/

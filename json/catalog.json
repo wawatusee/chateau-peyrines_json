@@ -11,15 +11,15 @@
             "image":"blancsec.jpg",
             "packaging": [
               {
-                "quantité": "+36 bouteilles",
+                "quantité": "+36 bouteilles expédiées",
                 "price": "7€90"
               },
               {
-                "quantité": "+60 bouteilles",
+                "quantité": "+60 bouteilles expédiées",
                 "price": "7€60"
               },
               {
-                "quantité": "+120 bouteilles",
+                "quantité": "+120 bouteilles expédiées",
                 "price": "7€40"
               },
               {
@@ -35,15 +35,15 @@
             "image":"blancmoelleux.jpg",
             "packaging": [
               {
-                "quantité": "+36 bouteilles",
+                "quantité": "+36 bouteilles expédiées",
                 "price": "8€30"
               },
               {
-                "quantité": "+60 bouteilles",
+                "quantité": "+60 bouteilles expédiées",
                 "price": "8€00"
               },
               {
-                "quantité": "+120 bouteilles",
+                "quantité": "+120 bouteilles expédiées",
                 "price": "7€80"
               },
               {
@@ -60,15 +60,15 @@
             "image":"rose.jpg",
             "packaging": [
               {
-                "quantité": "+36 bouteilles",
+                "quantité": "+36 bouteilles expédiées",
                 "price": "7€90"
               },
               {
-                "quantité": "+60 bouteilles",
+                "quantité": "+60 bouteilles expédiées",
                 "price": "7€60"
               },
               {
-                "quantité": "+120 bouteilles",
+                "quantité": "+120 bouteilles expédiées",
                 "price": "7€40"
               },
               {
@@ -85,15 +85,15 @@
             "image":"bulles.jpg",
             "packaging": [
               {
-                "quantité": "+36 bouteilles",
+                "quantité": "+36 bouteilles expédiées",
                 "price": "11€30"
               },
               {
-                "quantité": "+60 bouteilles",
+                "quantité": "+60 bouteilles expédiées",
                 "price": "11€00"
               },
               {
-                "quantité": "+120 bouteilles",
+                "quantité": "+120 bouteilles expédiées",
                 "price": "10€80"
               },
               {
@@ -115,15 +115,15 @@
             "image":"rouge.jpg",
             "packaging": [
               {
-                "quantité": "+36 bouteilles",
+                "quantité": "+36 bouteilles expédiées",
                 "price": "8€40"
               },
               {
-                "quantité": "+60 bouteilles",
+                "quantité": "+60 bouteilles expédiées",
                 "price": "8€10"
               },
               {
-                "quantité": "+120 bouteilles",
+                "quantité": "+120 bouteilles expédiées",
                 "price": "7€90"
               },
               {
@@ -140,17 +140,18 @@
             "année": 2016,
             "product": "Rouge A.O.C Bordeaux Supérieur ",
             "detail":"Elaboré avec un assemblage de merlot, de cabernet sauvignon et de cabernet franc",
+            "image":"rouge.jpg",
             "packaging": [
               {
-                "quantité": "+36 bouteilles",
+                "quantité": "+36 bouteilles expédiées",
                 "price": "8€20"
               },
               {
-                "quantité": "+60 bouteilles",
+                "quantité": "+60 bouteilles expédiées",
                 "price": "7€90"
               },
               {
-                "quantité": "+120 bouteilles",
+                "quantité": "+120 bouteilles expédiées",
                 "price": "7€70"
               },
               {

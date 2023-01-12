@@ -23,17 +23,23 @@
     </div>
     <main>
         <section id="accueil">
-            <h2>Accueil</h2>
-            <section class="information">
+            <h2>Accueil</h2> 
+            <p>Présentation des produits, services et du site de Chateau Peyrines.</p>
+            <section>
                 <h3>Présentation du site</h3>
-                    <p>Château peyrines n'est pas un chateau, bien qu'il y ait eu un chateau autrefois, aujourd'hui vous y trouverez un domaine viticole. Sur ce domaine viticole, vous pourrez nous y voir, nous sommes des producteurs récoltant du Cabernet, du Sauvignon avec lesquels nous élaborons des vins.</p>
-                    <p>Quels vins? Du vin blanc sec, du rouge supérieur(c'est comme ça qu'il est appelé), des Bulles de Peyrines(qui ne s'appelle pas Champagne parce que ce n'est pas comme ça qu'on l'appelle), du vin rosé, du vin blanc sec et puisque l'on nomme tout le monde on l'appelle Haut Benauge.
-                        <br>Pour avoir plus de détails sur le moyen d'accéder à tous nos trésors voici un lien vers notre <a href="#vins-tarifs"><img class="picto-lien" src="/public/img/picto-bouteille.png" alt="dessin de bouteille"> Cataloque</a>.
-                    </p>
-                    <p>Nous sommes producteurs récoltant, je l'ai déja dit, c'est état de fait ne nous empêche pas de nous déplacer. Avec une camionette nous transportons quelques unes de nos bouteilles à divers endroits en France à divers moments <br>
-                        Afin que vous puissiez connaitre les dates de nos dégustations-vente, livraison et autres déplacements voici un lien vers les dates de la <a href="#tournee"><img class="picto-lien" src="/public/img/picto-tourne.png" alt="dessin de camionette">tournée</a>. </p>
-                    <p>Si enfin, vous désirez, nous parler, nous écrire ou venir nous voir, voici un autre lien vers la page <a href="#contact">Contact</a></p>
-                    <p>Dans le pied de site, une série de liens cliquables, vous permet d'accéder à différentes rubriques, si vous êtes concernés, vous savez sur lesquelles cliquer.</p>
+                <div class="presentation">
+                    <a href="#accueil" class="lien"><img class="picto-lien" src="/public/img/picto-accueil.png" alt="dessin du chateau">Accueil</a><span>Bonjour à toi citoyen de plus de 18 ans, bienvenu sur le site de Château Peyrines.<br> Château Peyrines est appelé château car sur la terre où poussent nos vignes aujourd'hui, autrefois il y avait un château, celui des comtes de Peyrines. Quelques pierres sont encore visibles et les bouteilles de vin, pour le souvenir sont estampillées du blason de ces résidents féodaux. Nommer notre vignoble "Château", convenons, si vous le voulez bien que l'usage soit plutôt agréable.<br>
+                Sur le site internet de Château-Peyrines.com vous trouverez un sobre descriptif de Château-Peyrines,  le catalogue des vins disponibles à la commande, les dates et lieux de la tournée et les divers moyens de contacter les acteurs de ce domaine.
+                </span>
+                </div>
+                <div class="presentation">
+                    <a href="#catalogue" class="lien"><img class="picto-lien" src="/public/img/picto-bouteille.png" alt="dessin de bouteille de vin">Catalogue</a><span>Le catalogue présente tous les vins de Château-Peyrines que vous pouvez commander : vin blanc sec, vin rouge supérieur, vin moelleux, bulles de Peyrines, vin rosé.
+                    Le catalogue présente les tarifs de chacun de ces vins, selon qu'ils soient livrés ou achetés sur place, et adaptés aux quantités commandées.</span>
+                </div>
+                <div class="presentation">
+                    <a href="#tournee" class="lien"><img class="picto-lien" src="/public/img/picto-tourne.png" alt="dessin de camionette">Tournée</a><span>Nous déplaçons avec une camionette quelques unes de nos bouteilles à divers endroits en France à divers moments <br>
+                    Dégustations-vente, livraison et autres déplacements ci-dessus un lien vers les dates et lieux de cette tournée annuelle en France.</span>
+                </div>
             </section>
         </section>
         <section id="catalogue">
@@ -75,27 +81,35 @@
                 <!--Récupération du json de la tournée-->
                 const a_tour=<?php echo json_encode($tourFull,true)?>
                 </script>
-                <h3>Carte</h3>
-                <div id="map">
-                <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
-                <!--Ici la carte des lieux d'events (leaflet+openmap)-->
-                </div>
                 <h3>Dates</h3>
+                <div class="dates">
                 <!--/*Liste des dates des dits events(tableau)*/-->
                 <?php require_once("../view/tour_view.php");
                 $viewTour=new TourView;
                 $displayDates= $viewTour->getView($tourFull->events);
                 echo $displayDates;?>
+                </div>
+                <h3>Carte</h3>
+                <div id="map">
+                <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+                <!--Ici la carte des lieux d'events (leaflet+openmap)-->
+                </div>
+
                 <script src="js/tour.js"></script>
             </article>
         </section>
         <section id="contact">
             <h2>Contact</h2>
-            <div class="information">
-                <p>Adresse : Chateau Peyrines, 33410 Mourens, France <br>Visite & dégustation sur place</p>
-                <p>Téléphone :+33 05 56 61 98 05</p>
-                <p>Mail : contact@chateau-peyrines.com</p>
+            <div class="presentation">
+            <a href="https://goo.gl/maps/WXbuRqfbw21NUYKFA"><img src="/public/img/picto-map" alt="picto-map"></a><span>Adresse : Chateau Peyrines, 33410 Mourens, France <br>Visite & dégustation sur place</span>
             </div>
+            <div class="presentation">
+                <a href="tel:+33055661905"><img src="/public/img/picto-phone" alt="picto-phone"></a><span>Téléphone :+33 05 56 61 98 05</span>
+             </div>
+            <div class="presentation">
+                <a href="mailto:contact@chateau-peyrines.com"><img src="/public/img/picto-mail" alt="picto-mail"></a><span>Mail : contact@chateau-peyrines.com</span>
+            </div>
+            
         </section>
     </main>
     <!--Inclusion du footer -->
