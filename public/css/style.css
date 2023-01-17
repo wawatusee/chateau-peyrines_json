@@ -349,7 +349,7 @@ footer{
       color: white;
     }
     .footerNav{
-      background-color:var(--main-bg-color);
+      background-color:var(--vinrouge-color);
       display: flex;
       flex-direction: row;
       justify-content: space-around;
