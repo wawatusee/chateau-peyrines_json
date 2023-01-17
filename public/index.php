@@ -101,13 +101,13 @@
         <section id="contact">
             <h2>Contact</h2>
             <div class="presentation">
-            <a href="https://goo.gl/maps/WXbuRqfbw21NUYKFA"><img src="/public/img/picto-map" alt="picto-map"></a><span>Adresse : Chateau Peyrines, 33410 Mourens, France <br>Visite & dégustation sur place</span>
+            <a href="https://goo.gl/maps/WXbuRqfbw21NUYKFA"><img src="/public/img/picto-map" alt="picto-adresse"></a><span> Chateau Peyrines, 33410 Mourens, France <br>Visite & dégustation sur place</span>
             </div>
             <div class="presentation">
-                <a href="tel:+33055661905"><img src="/public/img/picto-phone" alt="picto-phone"></a><span>Téléphone :+33 05 56 61 98 05</span>
+                <a href="+33055661905"><img src="/public/img/picto-phone" alt="picto-téléphone"></a><span>+33 05 56 61 98 05</span>
              </div>
             <div class="presentation">
-                <a href="mailto:contact@chateau-peyrines.com"><img src="/public/img/picto-mail" alt="picto-mail"></a><span>Mail : contact@chateau-peyrines.com</span>
+                <a href="mailto:contact@chateau-peyrines.com"><img src="/public/img/picto-mail" alt="picto-mail"></a><span>contact@chateau-peyrines.com</span>
             </div>
             
         </section>
