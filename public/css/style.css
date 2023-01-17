@@ -342,7 +342,7 @@ footer{
 }
     /*footerNav*/
     #sitemap{
-      background-color:var(--main-bg-color);
+      background-color:var(--vinrouge-color);
       margin-bottom: 5px ;
     }
     #sitemap h2,#sitemap h3{
