@@ -12,7 +12,7 @@
      crossorigin="">
     <script src="js/menu.js"></script>
     <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
-    <title><?php echo $titleWebSite[0]?></title>
+    <title>Château-Peyrines.com</title>
 </head>
 <body>
         <!--Inclusion du header -->
