@@ -38,12 +38,16 @@ body {
 
   /*Header*/
   header{
-    background:var(--main-clear-color);
-    color: var(--vinrouge-color);
+    background:url("../img/background/facade-peyrines.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 40%;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height:40vh;
   }
   header H1, header p{
     text-align: center;
