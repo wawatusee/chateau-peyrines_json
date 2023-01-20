@@ -12,6 +12,7 @@
      crossorigin="">
     <script src="js/menu.js"></script>
     <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
+    <meta name="description" content="Commande, tarifs, livraison, tournée de dégustation de Vin blanc sec rafraichissant, d'Entre-deux-Mers Haut Benauge, de vin blanc moelleux, de vin rouge Bordeaux supérieur, si ce site ne vous abreuve pas il vous donne les accès à ces trésors produits par le Chateau Peyrines.">
     <title>Château-Peyrines.com</title>
 </head>
 <body>
