@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="36"
+   height="37"
+   viewBox="0 0 36 37"
+   sodipodi:docname="picto-phone.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="11.851351"
+     inkscape:cx="-20.166477"
+     inkscape:cy="18.985177"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="296"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="fond">
+    <rect
+       style="display:inline;fill:#663333;stroke-width:2.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:1;stroke-dasharray:0.625, 0.625;paint-order:markers fill stroke;stop-color:#000000;fill-opacity:1"
+       id="rect349"
+       width="36.029648"
+       height="37.126564"
+       x="6.7580821e-08"
+       y="6.833767e-07"
+       inkscape:export-filename="picto-phone-rouge.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#ffffff;stroke-width:2.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:1;stroke-dasharray:0.625, 0.625;paint-order:markers fill stroke;stop-color:#000000"
+       d="m 10.462942,6.8346636 6.412771,6.1596354 -4.387686,4.893956 6.075257,5.822121 4.387685,-4.303306 6.919042,6.750285 c 0,0 -0.08438,0.08438 0,0 0.08438,-0.08438 -10.125427,9.450399 -19.238312,0 C 1.5188141,16.706956 10.462942,6.8346636 10.462942,6.8346636 Z"
+       id="path408" />
+  </g>
+</svg>
