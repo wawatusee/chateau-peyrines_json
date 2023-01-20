@@ -162,11 +162,15 @@ body {
   /*endMain*/
   /**********************/
   /*Titres*/
-  h2,h3{
+  h3{
     color: var(--vinrouge-color);
 
   }
   h2{
+    color: white;
+    background-color: var(--vinrouge-color);
+    text-align: center;
+    margin: 20px;
     text-decoration: underline solid;
   }
   h3{
