@@ -25,7 +25,7 @@
     <main>
         <section id="accueil">
             <h2>Accueil</h2> 
-            <p>Présentation des produits, services et du site de Chateau Peyrines.</p>
+            <p>Présentation des produits et services de Chateau Peyrines.</p>
             <section>
                 <h3>Présentation du site</h3>
                 <div class="presentation">

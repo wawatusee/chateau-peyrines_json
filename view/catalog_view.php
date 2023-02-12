@@ -20,7 +20,7 @@
                     $this->catalogView.="<img class='imgcatalog' alt='photo du produit' src='img/catalog/".$product->image."'>";
                 };
                 if (isset($product->detail)){
-                    $this->catalogView.="<p>".$product->detail."</p>";
+                    $this->catalogView.="<span>".$product->detail."</span>";
                 };
                 $this->catalogView.="</details>";
                 $this->catalogView.="<div class='prices'>";

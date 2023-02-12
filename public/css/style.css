@@ -262,6 +262,7 @@ body {
   }
   .detailsvin {
     display: flex;
+    flex-direction: row;
   }
   .imgcatalog{
     width: 90px;
