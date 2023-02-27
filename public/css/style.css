@@ -134,11 +134,7 @@ body {
       text-align: left;
     }
   }
-  /*#responsiveMenu{
-    position: fixed;
-    top: 0%;
-    right: 0;
-  }*/
+
   /*Texte information*/
   .information{
     padding: var(--content-padding);
@@ -274,11 +270,23 @@ body {
     border-radius: 0.5em;
     text-align: center;
   }
+  /*Descriptif vin*/
+  .descriptifvin{
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+  }
+  .descriptifvin>span{
+    width: 50%;
+    height: fit-content;
+    background-color: #ddd;
+  }
+    /*End Descriptif vin*/
   .prices{
     display:flex;
- 
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 10px;
   }
   /********************/
   /*Tableaux de prix*/
