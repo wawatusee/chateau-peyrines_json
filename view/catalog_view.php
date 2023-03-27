@@ -16,12 +16,14 @@
                 //Fin des trois lignes
                 $this->catalogView.="<div class='product ".$couleurvin."'><h5>".$product->année." ".$product->product."</h5>";
                 $this->catalogView.="<details class='detailsvin' open><summary>Descriptif</summary>";
+                $this->catalogView.="<div class='descriptifvin'>";
                 if (isset($product->image)){
                     $this->catalogView.="<img class='imgcatalog' alt='photo du produit' src='img/catalog/".$product->image."'>";
                 };
                 if (isset($product->detail)){
-                    $this->catalogView.="<p>".$product->detail."</p>";
+                    $this->catalogView.="<span>".$product->detail."</span>";
                 };
+                $this->catalogView.="</div>";
                 $this->catalogView.="</details>";
                 $this->catalogView.="<div class='prices'>";
                 foreach($product->packaging as $packaging){

@@ -9,6 +9,6 @@
         echo $menuMain_view;
         ?>
         <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">
-            <img src="img/menu-toggle-icon.png" alt="bouton menu-toggle">
+            <img src="img/menu-toggle-icon-rouge.png" alt="bouton menu-toggle">
         </a>
 </nav>

@@ -38,12 +38,16 @@ body {
 
   /*Header*/
   header{
-    background:var(--main-clear-color);
-    color: var(--vinrouge-color);
+    background:url("../img/background/facade-peyrines.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 40%;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height:40vh;
   }
   header H1, header p{
     text-align: center;
@@ -130,11 +134,7 @@ body {
       text-align: left;
     }
   }
-  /*#responsiveMenu{
-    position: fixed;
-    top: 0%;
-    right: 0;
-  }*/
+
   /*Texte information*/
   .information{
     padding: var(--content-padding);
@@ -158,11 +158,15 @@ body {
   /*endMain*/
   /**********************/
   /*Titres*/
-  h2,h3{
+  h3{
     color: var(--vinrouge-color);
 
   }
   h2{
+    color: white;
+    background-color: var(--vinrouge-color);
+    text-align: center;
+    margin: 20px;
     text-decoration: underline solid;
   }
   h3{
@@ -254,6 +258,7 @@ body {
   }
   .detailsvin {
     display: flex;
+    flex-direction: row;
   }
   .imgcatalog{
     width: 90px;
@@ -265,11 +270,24 @@ body {
     border-radius: 0.5em;
     text-align: center;
   }
+  /*Descriptif vin*/
+  .descriptifvin{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .descriptifvin>span{
+    width: 50%;
+    height: fit-content;
+    background-color: var(--main-clear-color);
+    font-size: small;
+  }
+    /*End Descriptif vin*/
   .prices{
     display:flex;
- 
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 10px;
   }
   /********************/
   /*Tableaux de prix*/
@@ -385,7 +403,7 @@ footer{
 .rs{
 height: 30px;
 width: 30px;
-background-image: url("../img/logo-rs_30px.png");
+background-image: url("../img/logo-rs_30px-rouge.png");
 background-position-y:0;
 margin: var(--standartspace);
 }

@@ -28,6 +28,55 @@
             "type":"Dégustation Vente",
             "text":"",
             "état":"1"
+        },
+        {
+            "date":"2023-02-24",
+            "location":{"nom":"Angers-Ecouflant-49","lat": 47.5333,"lon": -0.5333},
+            "type":"Dégustation Vente",
+            "text":"",
+            "état":"1"
+        },
+        {
+            "date":"2023-02-25 et 26",
+            "location":{"nom":"Ségrie-72","lat": 48.2000,"lon": 0.0333},
+            "type":"Dégustation Vente",
+            "text":"",
+            "état":"1"
+        },
+        {
+            "date":"2023-02-12",
+            "location":{"nom":"Brives la Gaillarde-19","lat": 45.1500,"lon": 1.5333},
+            "type":"Livraison",
+            "text":"",
+            "état":"1"
+        },
+        {
+            "date":"2023-03-18",
+            "location":{"nom":"Croix-59","lat": 50.6667,"lon": 3.1500},
+            "type":"Dégustation Vente",
+            "text":"",
+            "état":"1"
+        },
+        {
+            "date":"2023-03-19",
+            "location":{"nom":"Lestrem-59","lat": 50.6167,"lon": 2.6833},
+            "type":"Dégustation Vente",
+            "text":"",
+            "état":"1"
+        },
+        {
+            "date":"2023-04-01",
+            "location":{"nom":"Compiègne-60","lat": 49.4179,"lon": 2.8261},
+            "type":"Dégustation Vente",
+            "text":"",
+            "état":"1"
+        },
+        {
+            "date":"2023-04-2",
+            "location":{"nom":"Sacy le Petit-60","lat": 49.3667,"lon": 2.6333},
+            "type":"Dégustation Vente",
+            "text":"",
+            "état":"1"
         }
     ]
 }
