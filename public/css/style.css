@@ -273,13 +273,14 @@ body {
   /*Descriptif vin*/
   .descriptifvin{
     display: flex;
-    justify-content: space-around;
-    max-width: 400px;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   .descriptifvin>span{
     width: 50%;
     height: fit-content;
-    background-color: #ddd;
+    background-color: var(--main-clear-color);
+    font-size: small;
   }
     /*End Descriptif vin*/
   .prices{
