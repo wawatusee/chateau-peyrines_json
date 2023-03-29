@@ -10,9 +10,6 @@
         <?php require_once('../inc/nav.php')?>
     </div>
     <main>
-    <pre>
-        <?php //print_r($_SERVER)?>
-    </pre>
     <?php
 //CONTROLEUR CENTRAL
     //$pageArray charge le tableau déclaré dans config.php,
