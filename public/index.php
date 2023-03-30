@@ -10,6 +10,7 @@
         <?php require_once('../inc/nav.php')?>
     </div>
     <main>
+<?php if(!$singlePage): ?>
     <?php
 //CONTROLEUR CENTRAL
     //$pageArray charge le tableau déclaré dans config.php,
@@ -26,8 +27,15 @@
     } else {
         require_once '../inc/pages/accueil.php';
     }
-//FIN DE CONTROLEUR CENTRAL
     ?>
+<?php else: ?>
+    <?php 
+    foreach($pagesDuMenus as $page){
+        require_once '../inc/pages/' . $page . '.php';
+    }
+//FIN DE CONTROLEUR CENTRAL
+    ?>    
+<?php endif ?>
     </main>
     <!--Inclusion du footer -->
     <?php require_once('../inc/footer.php')?>
