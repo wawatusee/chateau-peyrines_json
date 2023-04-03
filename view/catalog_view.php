@@ -14,17 +14,20 @@
                     $couleurvin=strtolower(explode(" ",$product->product)[0]);
                 }else $couleurvin="moelleux";
                 //Fin des trois lignes
-                $this->catalogView.="<div class='product ".$couleurvin."'><h5>".$product->année." ".$product->product."</h5>";
-                $this->catalogView.="<details class='detailsvin' open><summary>Descriptif</summary>";
+                $this->catalogView.="<details class='detailsvin' open><summary>vin</summary>";
                 $this->catalogView.="<div class='descriptifvin'>";
                 if (isset($product->image)){
                     $this->catalogView.="<img class='imgcatalog' alt='photo du produit' src='img/catalog/".$product->image."'>";
                 };
                 if (isset($product->detail)){
-                    $this->catalogView.="<span>".$product->detail."</span>";
+                    $this->catalogView.="<div class='detailvintext'>";
+                    $this->catalogView.="<span >".$product->detail."</span>";
+                    $this->catalogView.="</div>";
                 };
-                $this->catalogView.="</div>";
+                $this->catalogView.="</>";
                 $this->catalogView.="</details>";
+                $this->catalogView.="<div class='product ".$couleurvin."'><h5>".$product->année." ".$product->product."</h5>";
+
                 $this->catalogView.="<div class='prices'>";
                 foreach($product->packaging as $packaging){
                     //Les prix selon la quantité

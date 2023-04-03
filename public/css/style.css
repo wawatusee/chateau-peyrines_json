@@ -276,7 +276,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
   }
-  .descriptifvin>span{
+  .descriptifvin>.detailvintext{
     width: 50%;
     height: fit-content;
     background-color: var(--main-clear-color);
