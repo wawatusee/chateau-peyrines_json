@@ -256,6 +256,12 @@ body {
     padding: var(--content-padding);
     border:1px solid var(--main-clear-color);
   }
+  .showcase>article>h5{
+position: relative;
+left: 50%;
+    text-align: center;
+    width: 50%;
+  }
   .detailsvin {
     display: flex;
     flex-direction: row;

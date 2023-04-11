@@ -8,12 +8,14 @@
             $this->catalogView.="<h4>".$showroom->showroom."</H4>";
             foreach ($showroom->Products as $product){
                 //Chaque produit
+                
                 //Les trois lignes qui suivent pour donner une classe différente selon la couleur de chaque vin.
                 $aProduit=explode(" ",$product->product);
                 if(strtolower($aProduit[1])!="moelleux"){
                     $couleurvin=strtolower(explode(" ",$product->product)[0]);
                 }else $couleurvin="moelleux";
                 //Fin des trois lignes
+                $this->catalogView.="<article class='".$couleurvin."'><h5>".$product->année." ".$product->product."</h5>";
                 $this->catalogView.="<details class='detailsvin' open><summary>vin</summary>";
                 $this->catalogView.="<div class='descriptifvin'>";
                 if (isset($product->image)){
@@ -26,7 +28,7 @@
                 };
                 $this->catalogView.="</>";
                 $this->catalogView.="</details>";
-                $this->catalogView.="<div class='product ".$couleurvin."'><h5>".$product->année." ".$product->product."</h5>";
+                $this->catalogView.="<div class='product ".$couleurvin."'>";
 
                 $this->catalogView.="<div class='prices'>";
                 foreach($product->packaging as $packaging){
@@ -36,7 +38,7 @@
                     $this->catalogView.="<tbody><tr><td class='price'>".$packaging->price."</td><td>l'unité</td></tr>";
                     $this->catalogView.="</tbody></table>";
                 };
-                $this->catalogView.="</div></div>";
+                $this->catalogView.="</div></article>";
             };
 
             $this->catalogView.="</section>";
