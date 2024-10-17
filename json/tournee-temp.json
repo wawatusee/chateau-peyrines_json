@@ -164,6 +164,138 @@
         "type": "Livraison",
         "text": "",
         "état": "1"
+    },
+    {
+        "date": "2024-12-17",
+        "location": {
+            "nom": "Lyon-69",
+            "lat": 45.76462761368714,
+            "lon": 4.834782687825536
+        },
+        "type": "Livraison",
+        "text": "",
+        "état": "0"
+    },
+    {
+        "date": "2024-12-18",
+        "location": {
+            "nom": "Haute-Savoie-72",
+            "lat": 46.083593903911726,
+            "lon": 6.675636441055362
+        },
+        "type": "Livraison",
+        "text": "",
+        "état": "0"
+    },
+    {
+        "date": "2024-date-a-definir",
+        "location": {
+            "nom": "Vannes-56",
+            "lat": 47.6578,
+            "lon": -2.7916
+        },
+        "type": "Dégustation Vente",
+        "text": "",
+        "état": "0"
+    },
+    {
+        "date": "2024-date-a-definir",
+        "location": {
+            "nom": "Baden-56",
+            "lat": 47.6191,
+            "lon": -2.9206
+        },
+        "type": "Dégustation Vente",
+        "text": "",
+        "état": "0"
+    },
+    {
+        "date": "2024-date-a-definir",
+        "location": {
+            "nom": "Issy les Moulineaux-92",
+            "lat": 48.8245,
+            "lon": 2.2743
+        },
+        "type": "Dégustation Vente",
+        "text": "",
+        "état": "0"
+    },
+    {
+        "date": "2024-date-a-definir",
+        "location": {
+            "nom": "La Celle-Saint-Cloud-78",
+            "lat": 48.8498,
+            "lon": 2.1325
+        },
+        "type": "Dégustation Vente",
+        "text": "",
+        "état": "0"
+    },
+    {
+        "date": "2024-date-a-definir",
+        "location": {
+            "nom": "Angers-Ecouflant-49",
+            "lat": 47.5333,
+            "lon": -0.5333
+        },
+        "type": "Dégustation Vente",
+        "text": "",
+        "état": "0"
+    },
+    {
+        "date": "2024-date-a-definir",
+        "location": {
+            "nom": "Ségrie-72",
+            "lat": 48.2,
+            "lon": 0.0333
+        },
+        "type": "Dégustation Vente",
+        "text": "",
+        "état": "0"
+    },
+    {
+        "date": "2024-date-a-definir",
+        "location": {
+            "nom": "Croix-59",
+            "lat": 50.6667,
+            "lon": 3.15
+        },
+        "type": "Dégustation Vente",
+        "text": "",
+        "état": "0"
+    },
+    {
+        "date": "2024-date-a-definir",
+        "location": {
+            "nom": "Lestrem-62",
+            "lat": 50.6167,
+            "lon": 2.6833
+        },
+        "type": "Dégustation Vente",
+        "text": "",
+        "état": "0"
+    },
+    {
+        "date": "2024-date-a-definir",
+        "location": {
+            "nom": "Compiègne-60",
+            "lat": 49.4179,
+            "lon": 2.8261
+        },
+        "type": "Dégustation Vente",
+        "text": "",
+        "état": "0"
+    },
+    {
+        "date": "2024-date-a-definir",
+        "location": {
+            "nom": "Sacy le Petit-60",
+            "lat": 49.3667,
+            "lon": 2.6333
+        },
+        "type": "Dégustation Vente",
+        "text": "",
+        "état": "0"
     }
 ]
 }
