@@ -3,7 +3,7 @@
         <h2>Catalogue</h2>
         <section id="vins-tarifs">
         <h3>Tarifs des vins</h3>
-        <p>Téléchargement tarifs 2023-2024 <a href="/public/docs/peyrines-tarifs-expeditions-2024-25.pdf">tarifs expéditions-2024-2025</a></p>
+        <p>Téléchargement tarifs 2023-2024 <a href="/public/docs/peyrines-tarifs-expeditions-2025-26.pdf">tarifs expéditions-2025-2026</a></p>
         <?php
         require_once("../model/catalog_model.php");
         //Chargement du catalogue depuis la base de données
@@ -23,7 +23,7 @@
             <p>Pour profiter du Tarif dégressif, commandez avec des ami(e)s et faites expédier à une seule adresse.</p>
             <p>Ces prix s’entendent Toutes Taxes Comprises et Transport Compris pour la France Métropolitaine.</p>
             <p>Règlement à la commande par chèque , à l’ordre de : SCEA BEHAGHEL Ou par Virement Bancaire sur demande du RIB.</p>
-            <p>Ces tarifs sont valables de : Octobre 2023 à Septembre 2024</p>
+            <p>Ces tarifs sont valables de : Octobre 2025 à Septembre 2026</p>
             <p>L’abus d’alcool est dangereux pour la santé. À consommer avec modération.</p>
         </fieldset>
     </section>

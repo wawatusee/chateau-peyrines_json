@@ -15,6 +15,7 @@
             <?php require_once("../view/tour_view.php");
             $viewTour=new TourView;
             $displayDates= $viewTour->getView($tourFull->events);
+            //$displayDates= $viewTour->getView($tourFull);
             echo $displayDates;?>
             </div>
             <h3>Carte</h3>

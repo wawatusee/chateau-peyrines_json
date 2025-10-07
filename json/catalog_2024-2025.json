@@ -4,15 +4,15 @@
             "showroom": "Vins Blancs et Rosé",
             "Products": [
                 {
-                    "année": 2024, 
-                    "product": "Blanc Sec A.O.C Entre-Deux-Mers Haut Benauge",
-                    "detail": "Elaboré avec un assemblage des 3 cépages sémillion, sauvignon, et muscadelle", 
-                    "image": "blancsec.jpg", 
+                    "année": 2023,
+                    "product": "Blanc sec  A.O.C Entre-deux-Mers Haut Benauge",
+                    "detail": "Elaboré avec un assemblage des 3 cépages sémillion, sauvignon, et muscadelle",
+                    "image": "blancsec.jpg",
                     "packaging": [
-                        {"quantité": "+36 bouteilles expédiées", "price": "8€40"},
-                        {"quantité": "+60 bouteilles expédiées", "price": "8€10"},
-                        {"quantité": "+120 bouteilles expédiées", "price": "7€90"},
-                        {"quantité": "au départ de la propriété ", "price": "7€00"}
+                        {"quantité": "+36 bouteilles expédiées", "price": "8€20"},
+                        {"quantité": "+60 bouteilles expédiées", "price": "7€90"},
+                        {"quantité": "+120 bouteilles expédiées", "price": "7€70"},
+                        {"quantité": "au départ de la propriété ", "price": "6€80"}
                     ]
                 },
                 {
@@ -21,46 +21,34 @@
                     "detail": "Elaboré avec le cépage sémillion",
                     "image": "blancmoelleux.jpg",
                     "packaging": [
-                        {"quantité": "+36 bouteilles expédiées", "price": "8€70"},
-                        {"quantité": "+60 bouteilles expédiées", "price": "8€40"},
-                        {"quantité": "+120 bouteilles expédiées", "price": "8€20"},
-                        {"quantité": "au départ de la propriété ", "price": "7€30"}
+                        {"quantité": "+36 bouteilles expédiées", "price": "8€60"},
+                        {"quantité": "+60 bouteilles expédiées", "price": "8€30"},
+                        {"quantité": "+120 bouteilles expédiées", "price": "8€10"},
+                        {"quantité": "au départ de la propriété ", "price": "7€20"}
                     ]
                 },
                 {
-                    "année": 2024, 
+                    "année": 2023,
                     "product": "Rosé A.O.C Bordeaux ",
                     "detail": "Elaboré avec un assemblage de merlot et de cabernet sauvignon",
                     "image": "rose.jpg",
                     "packaging": [
-                        {"quantité": "+36 bouteilles expédiées", "price": "8€40"},
-                        {"quantité": "+60 bouteilles expédiées", "price": "8€10"},
-                        {"quantité": "+120 bouteilles expédiées", "price": "7€90"},
-                        {"quantité": "au départ de la propriété ", "price": "7€00"}
+                        {"quantité": "+36 bouteilles expédiées", "price": "8€20"},
+                        {"quantité": "+60 bouteilles expédiées", "price": "7€90"},
+                        {"quantité": "+120 bouteilles expédiées", "price": "7€70"},
+                        {"quantité": "au départ de la propriété ", "price": "6€80"}
                     ]
                 },
                 {
-                    "année": 2024, 
+                    "année": 2023,
                     "product": "Méthode Traditionnelle:''Les Bulles de Peyrines''",
                     "detail": "Elaboré avec le cépage sémillion. La champagnisation se fait durant 9 mois chez un prestataire spécialisé.",
                     "image": "bulles.jpg",
                     "packaging": [
-                        {"quantité": "+36 bouteilles expédiées", "price": "11€70"},
-                        {"quantité": "+60 bouteilles expédiées", "price": "11€40"},
-                        {"quantité": "+120 bouteilles expédiées", "price": "11€20"},
-                        {"quantité": "au départ de la propriété ", "price": "10€30"}
-                    ]
-                },
-                {
-                    "année": 2025, 
-                    "product": "Jus de Raisin, la bouteille d’un litre",
-                    "detail": "Jus de raisin pur, sans alcool.", 
-                    "image": "jusderaisin.jpg",
-                    "packaging": [
-                        {"quantité": "+36 bouteilles expédiées", "price": "5€60"},
-                        {"quantité": "+60 bouteilles expédiées", "price": "5€30"},
-                        {"quantité": "+120 bouteilles expédiées", "price": "5€10"},
-                        {"quantité": "au départ de la propriété ", "price": "4€20"}
+                        {"quantité": "+36 bouteilles expédiées", "price": "11€60"},
+                        {"quantité": "+60 bouteilles expédiées", "price": "11€30"},
+                        {"quantité": "+120 bouteilles expédiées", "price": "11€10"},
+                        {"quantité": "au départ de la propriété ", "price": "10€20"}
                     ]
                 }
             ]
@@ -69,17 +57,29 @@
             "showroom": "Vins rouges",
             "Products": [
                 {
-                    "année": 2018, 
+                    "année": 2016,
                     "product": "Rouge A.O.C Bordeaux Supérieur ",
                     "detail": "Elaboré avec un assemblage de merlot, de cabernet sauvignon et de cabernet franc",
                     "image": "rouge.jpg",
                     "packaging": [
-                        {"quantité": "+36 bouteilles expédiées", "price": "8€90"},
-                        {"quantité": "+60 bouteilles expédiées", "price": "8€60"},
-                        {"quantité": "+120 bouteilles expédiées", "price": "8€40"},
-                        {"quantité": "Magnum", "price": "expédié 22€80"}, 
-                        {"quantité": "Magnum", "price": "au départ de la propriété 20€00"},
-                        {"quantité": "bouteille au départ de la propriété ", "price": "7€50"}
+                        {"quantité": "+36 bouteilles expédiées", "price": "8€80"},
+                        {"quantité": "+60 bouteilles expédiées", "price": "8€50"},
+                        {"quantité": "+120 bouteilles expédiées", "price": "8€30"},
+                        {"quantité": "Magnum", "price": "expédié 22€60"},
+                        {"quantité": "Magnum", "price": "au départ de la propriété 19€80"},
+                        {"quantité": "bouteille au départ de la propriété ", "price": "7€40"}
+                    ]
+                },
+                {
+                    "année": 2018,
+                    "product": "Rouge A.O.C Bordeaux Supérieur ",
+                    "detail": "Elaboré avec un assemblage de merlot, de cabernet sauvignon et de cabernet franc",
+                    "image": "rouge.jpg",
+                    "packaging": [
+                        {"quantité": "+36 bouteilles expédiées", "price": "8€60"},
+                        {"quantité": "+60 bouteilles expédiées", "price": "8€30"},
+                        {"quantité": "+120 bouteilles expédiées", "price": "8€10"},
+                        {"quantité": "au départ de la propriété ", "price": "7€20"}
                     ]
                 },
                 {
@@ -88,10 +88,10 @@
                     "detail": "Elaboré avec un assemblage de merlot, de cabernet sauvignon et de cabernet franc",
                     "image": "rouge.jpg",
                     "packaging": [
-                        {"quantité": "+36 bouteilles expédiées", "price": "8€70"},
-                        {"quantité": "+60 bouteilles expédiées", "price": "8€40"},
-                        {"quantité": "+120 bouteilles expédiées", "price": "8€20"},
-                        {"quantité": "au départ de la propriété ", "price": "7€30"}
+                        {"quantité": "+36 bouteilles expédiées", "price": "8€40"},
+                        {"quantité": "+60 bouteilles expédiées", "price": "8€10"},
+                        {"quantité": "+120 bouteilles expédiées", "price": "7€90"},
+                        {"quantité": "au départ de la propriété ", "price": "7€00"}
                     ]
                 }
             ]
