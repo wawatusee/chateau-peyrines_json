@@ -39,10 +39,11 @@ function escapeHtml(str) {
 /**
  * Envoie une requête à l'API et met à jour l'interface.
  */
-async function sendApiRequest(data) {
+/*async function sendApiRequest(data) {
     const formMessage = document.getElementById('form-message');
-    formMessage.className = 'message';
-    formMessage.textContent = 'Envoi en cours...';
+    formMessage.className = 'message success show';
+    formMessage.textContent = result.message;
+    setTimeout(() => { formMessage.classList.remove('show'); }, 5000); // Cache après 5 secondes
 
     try {
         const response = await fetch(API_ENDPOINT, {
@@ -67,7 +68,54 @@ async function sendApiRequest(data) {
         formMessage.textContent = 'Erreur réseau : impossible de joindre l\'API.';
         console.error('Erreur AJAX:', error);
     }
+}*/
+async function sendApiRequest(data) {
+    const formMessage = document.getElementById('form-message');
+    formMessage.className = 'message';
+    formMessage.textContent = 'Envoi en cours...';
+
+    try {
+        const response = await fetch(API_ENDPOINT, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(data)
+        });
+
+        // Vérifie si la réponse est valide
+        if (!response.ok) {
+            throw new Error(`Erreur HTTP : ${response.status}`);
+        }
+
+        // Essaye de parser la réponse JSON
+        const result = await response.json();
+
+        // Vérifie si la réponse contient bien un statut
+        if (!result || typeof result !== 'object') {
+            throw new Error('Réponse API invalide');
+        }
+
+        // Traite la réponse
+        if (result.status === 'success') {
+            formMessage.className = 'message success show';
+            formMessage.textContent = result.message;
+
+            // Met à jour l'interface avec les nouvelles données
+            if (result.events) {
+                updateEventsInterface(result.events, result.lastUpdated);
+            }
+            resetForm();
+        } else {
+            formMessage.className = 'message error show';
+            formMessage.textContent = result.message || 'Erreur inconnue lors de l\'opération.';
+        }
+
+    } catch (error) {
+        formMessage.className = 'message error show';
+        formMessage.textContent = `Erreur : ${error.message}`;
+        console.error('Erreur AJAX:', error);
+    }
 }
+
 
 // --- 3. GESTION DES ÉVÉNEMENTS (CRUD) ---
 /**

@@ -60,6 +60,7 @@ $eventsListJson = json_encode($eventsList, JSON_HEX_QUOT | JSON_UNESCAPED_UNICOD
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Administration de la tournée</title>
     <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="css/admin_tournees.css">
 </head>
 
 <body>
