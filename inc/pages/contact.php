@@ -8,6 +8,6 @@
             <a href="+33055661905"><img src="/public/img/picto-phone-rouge.png" alt="picto-téléphone"></a><span>+33 05 56 61 98 05</span>
             </div>
         <div class="presentation">
-            <a href="mailto:contact@chateau-peyrines.com"><img src="/public/img/picto-mail-rouge" alt="picto-mail"></a><span>contact@chateau-peyrines.com</span>
+            <a href="mailto:contact@chateau-peyrines.com"><img src="/public/img/picto-mail-rouge.png" alt="picto-mail"></a><span>contact@chateau-peyrines.com</span>
         </div>
     </section>

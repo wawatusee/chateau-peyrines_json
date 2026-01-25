@@ -1,29 +1,29 @@
 {
     "events": [
         {
-            "date": "2025-10-17",
+            "date": "2024-10-25",
             "location": {
                 "nom": "Brives la Gaillarde-19",
                 "lat": 45.15,
                 "lon": 1.5333
             },
-            "type": "TYPE-001",
+            "type": "Livraison",
             "text": "",
             "état": "1"
         },
         {
-            "date": "2025-10-18",
+            "date": "2024-10-26",
             "location": {
                 "nom": "Clermont-Ferrand-63",
                 "lat": 45.779118397262806,
                 "lon": 3.088327549231394
             },
-            "type": "TYPE-001",
+            "type": "Dégustation-vente",
             "text": "",
             "état": "1"
         },
         {
-            "date": "2025-11-7",
+            "date": "2024-11-1",
             "location": {
                 "nom": "Souston-40",
                 "lat": 43.7535932584942,
@@ -34,7 +34,7 @@
             "état": "1"
         },
         {
-            "date": "2025-11-8",
+            "date": "2024-11-1",
             "location": {
                 "nom": "Biarritz-64",
                 "lat": 43.48592602892128,
@@ -45,7 +45,7 @@
             "état": "1"
         },
         {
-            "date": "2025-11-8",
+            "date": "2024-11-2",
             "location": {
                 "nom": "Angaïs-64",
                 "lat": 43.23937333966397,
@@ -56,7 +56,7 @@
             "état": "1"
         },
         {
-            "date": "2025-11-9",
+            "date": "2024-11-3",
             "location": {
                 "nom": "Sazos-65",
                 "lat": 42.88341580899734,
@@ -67,18 +67,7 @@
             "état": "1"
         },
         {
-            "date": "2025-11-15 et 16",
-            "location": {
-                "nom": "Saint Jean de Boiseau-44",
-                "lat": 47.19585810789981,
-                "lon": -1.7259514008841033
-            },
-            "type": "Dégustation-vente",
-            "text": "",
-            "état": "1"
-        },
-        {
-            "date": "2025-11-22",
+            "date": "2024-11-16",
             "location": {
                 "nom": "Garches-92",
                 "lat": 48.84644984518525,
@@ -89,7 +78,7 @@
             "état": "1"
         },
         {
-            "date": "2025-11-23",
+            "date": "2024-11-17",
             "location": {
                 "nom": "Versailles-78",
                 "lat": 48.80565155728936,
@@ -100,7 +89,29 @@
             "état": "1"
         },
         {
-            "date": "2025-11-29",
+            "date": "2024-11-23 et 24",
+            "location": {
+                "nom": "Saint Jean de Boiseau-44",
+                "lat": 47.19585810789981,
+                "lon": -1.7259514008841033
+            },
+            "type": "Dégustation-vente",
+            "text": "",
+            "état": "1"
+        },
+        {
+            "date": "2024-11-29",
+            "location": {
+                "nom": "Lavalette-31",
+                "lat": 43.63772064848813,
+                "lon": 1.5954877685776607
+            },
+            "type": "Livraison",
+            "text": "",
+            "état": "1"
+        },
+        {
+            "date": "2024-11-30",
             "location": {
                 "nom": "Ayguesvives-31",
                 "lat": 43.44051690075052,
@@ -111,7 +122,7 @@
             "état": "1"
         },
         {
-            "date": "2025-11-30",
+            "date": "2024-12-1",
             "location": {
                 "nom": "Toulouse-31",
                 "lat": 43.60605431151297,
@@ -122,9 +133,9 @@
             "état": "1"
         },
         {
-            "date": "2025-12-05",
+            "date": "2024-11-06",
             "location": {
-                "nom": "Charentes-16 et 17",
+                "nom": "Charentes-16",
                 "lat": 45.67401764978876,
                 "lon": 0.18588880989861645
             },
@@ -133,7 +144,18 @@
             "état": "1"
         },
         {
-            "date": "2025-12-12",
+            "date": "2024-12-07",
+            "location": {
+                "nom": "Andernos-33",
+                "lat": 44.74366864650719,
+                "lon": -1.0998282958599495
+            },
+            "type": "Evenement",
+            "text": "Cabanes en fêtes",
+            "état": "1"
+        },
+        {
+            "date": "2024-12-13",
             "location": {
                 "nom": "Brives la Gaillarde-19",
                 "lat": 45.15,
@@ -143,6 +165,5 @@
             "text": "",
             "état": "1"
         }
-    ],
-    "last-updated": "2026-01-25 13:41:57"
+    ]
 }

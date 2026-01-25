@@ -1,0 +1,17 @@
+[
+    {
+        "id": "TYPE-001",
+        "name": "Livraison",
+        "description": "Déplacement pour livraison de produits chez un client."
+    },
+    {
+        "id": "TYPE-002",
+        "name": "Dégustation-vente",
+        "description": "Événement de dégustation et vente directe."
+    },
+    {
+        "id": "TYPE-003",
+        "name": "Evenement",
+        "description": "Participation à un événement ou un salon (ex: Cabanes en fêtes)."
+    }
+]
