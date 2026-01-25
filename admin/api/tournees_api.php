@@ -9,7 +9,8 @@ header('Content-Type: application/json');
  * Lit et décode le fichier JSON de la tournée.
  * @return array Le tableau complet (incluant 'events' et 'last-updated').
  */
-function getTourneeData() {
+function getTourneeData()
+{
     $filePath = '../' . TOURNEE_FILE;
 
     if (!file_exists($filePath)) {
@@ -31,7 +32,8 @@ function getTourneeData() {
  * @param array $data Le tableau de données complet à écrire.
  * @return bool Vrai en cas de succès, faux sinon.
  */
-function saveTourneeData(array $data) {
+function saveTourneeData(array $data)
+{
     $data['last-updated'] = date('Y-m-d H:i:s');
     $json_data = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
     $filePath = '../' . TOURNEE_FILE;
@@ -68,28 +70,23 @@ $eventsList = $tourneeData['events']; // Utilisation cohérente de 'events'
 switch ($action) {
     case 'add':
     case 'edit':
-        if (
-            empty($requestData['date']) ||
-            empty($requestData['type']) ||
-            empty($requestData['locationId']) ||
-            !isset($requestData['etat']) ||
-            !isset($requestData['location'])
-        ) {
+        // Vérification des champs requis
+        if (empty($requestData['date']) || empty($requestData['type']) || empty($requestData['location'])) {
             http_response_code(400);
-            echo json_encode(['status' => 'error', 'message' => 'Données de l\'événement incomplètes.']);
+            echo json_encode(['status' => 'error', 'message' => 'Données manquantes.']);
             exit;
         }
 
-        $newEvent = [ // Renommé pour plus de clarté
+        $newEvent = [
             'date' => $requestData['date'],
             'location' => [
                 'nom' => $requestData['location']['nom'],
-                'lat' => (float)$requestData['location']['lat'],
-                'lon' => (float)$requestData['location']['lon'],
+                'lat' => (float) $requestData['location']['lat'],
+                'lon' => (float) $requestData['location']['lon'],
             ],
             'type' => $requestData['type'],
             'text' => $requestData['text'] ?? '',
-            'état' => (string)$requestData['etat']
+            'état' => (string) $requestData['etat']
         ];
 
         $index = $requestData['index'] ?? -1;
@@ -108,6 +105,7 @@ switch ($action) {
             exit;
         }
         break;
+
 
     case 'delete':
         $index = $requestData['index'] ?? -1;

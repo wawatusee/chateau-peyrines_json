@@ -67,7 +67,9 @@ h1 {
 }
 
 /* --- Boutons Généralistes (.admin-headers-btns) --- */
-.admin-headers-btns, .btn-secondary, .btn-action {
+.admin-headers-btns,
+.btn-secondary,
+.btn-action {
     background-color: #007BFF;
     color: white;
     border: none;
@@ -95,11 +97,17 @@ h1 {
 }
 
 /* --- Messages de Statut (Succès/Erreur) --- */
+/* Dans admin_tournees.css */
+/* Message de statut */
 .message {
-    padding: 10px;
+    padding: 12px;
     margin-top: 15px;
     border-radius: 4px;
-    font-weight: bold;
+    font-weight: 500;
+    display: block;
+    /* Toujours affiché, mais peut être vide */
+    min-height: 20px;
+    /* Espace réservé même si vide */
 }
 
 .success {

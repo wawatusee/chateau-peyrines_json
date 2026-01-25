@@ -1,15 +1,15 @@
 {
     "events": [
         {
-            "date": "2025-10-17",
+            "date": "2025-10-18",
             "location": {
                 "nom": "Brives la Gaillarde-19",
                 "lat": 45.15,
                 "lon": 1.5333
             },
-            "type": "TYPE-001",
+            "type": "TYPE-002",
             "text": "",
-            "état": "1"
+            "état": "0"
         },
         {
             "date": "2025-10-18",
@@ -29,7 +29,7 @@
                 "lat": 43.7535932584942,
                 "lon": -1.3235998592015779
             },
-            "type": "Livraison",
+            "type": "TYPE-001",
             "text": "",
             "état": "1"
         },
@@ -144,5 +144,5 @@
             "état": "1"
         }
     ],
-    "last-updated": "2026-01-25 16:33:21"
+    "last-updated": "2026-01-25 18:41:09"
 }

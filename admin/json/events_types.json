@@ -2,7 +2,7 @@
     {
         "id": "TYPE-001",
         "name": "Livraison",
-        "description": "Déplacement pour livraison de produits chez un client."
+        "description": "Déplacement pour livraison de produits chez des clients."
     },
     {
         "id": "TYPE-002",
