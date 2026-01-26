@@ -3,17 +3,6 @@
         {
             "date": "2025-10-18",
             "location": {
-                "nom": "Brives la Gaillarde-19",
-                "lat": 45.15,
-                "lon": 1.5333
-            },
-            "type": "TYPE-002",
-            "text": "",
-            "état": "0"
-        },
-        {
-            "date": "2025-10-18",
-            "location": {
                 "nom": "Clermont-Ferrand-63",
                 "lat": 45.779118397262806,
                 "lon": 3.088327549231394
@@ -144,5 +133,5 @@
             "état": "1"
         }
     ],
-    "last-updated": "2026-01-25 18:41:09"
+    "last-updated": "2026-01-26 16:35:42"
 }

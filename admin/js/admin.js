@@ -55,26 +55,23 @@ async function sendApiRequest(data) {
 
         const result = await response.json();
         console.log("Réponse API complète :", result);
-
-        // Force l'affichage du message avec un texte par défaut si vide
-        let message = 'Opération réussie !';
-        if (result.message) {
-            message = result.message;
-        } else if (result.status === 'success') {
-            message = 'Événement enregistré avec succès.';
-        } else {
-            message = 'Une erreur est survenue.';
-        }
-
-        // Met à jour le contenu et la classe
-        formMessage.textContent = message;
-        formMessage.className = result.status === 'success' ? 'message success' : 'message error';
-
-        // Met à jour l'interface si nécessaire
-        if (result.status === 'success' && result.events) {
-            updateEventsInterface(result.events, result.lastUpdated);
+        // 1. D'abord, on met à jour l'interface et on reset le formulaire SI c'est un succès
+        if (result.status === 'success') {
+            if (result.events) {
+                updateEventsInterface(result.events, result.lastUpdated);
+            }
+            // On reset le formulaire (qui efface le message actuel)
             resetForm();
         }
+
+        // 2. ENSUITE, on force l'affichage du message (pour qu'il reste visible)
+        // On redéfinit le message APRES le resetForm
+        let message = result.message || (result.status === 'success' ? 'Succès !' : 'Erreur');
+
+        formMessage.textContent = message;
+        formMessage.className = result.status === 'success' ? 'message success' : 'message error';
+        formMessage.style.display = 'block';
+
     } catch (error) {
         formMessage.textContent = `Erreur réseau : ${error.message}`;
         formMessage.className = 'message error';
@@ -165,7 +162,7 @@ function resetForm() {
     const form = document.getElementById('event-form');
     form.reset();
     form.elements['event-index'].value = '-1';
-    document.getElementById('form-message').textContent = '';
+    // J'ai supprimé la ligne qui effaçait le message ici !
 }
 
 
