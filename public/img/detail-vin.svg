@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <g
+     id="layer1">
+    <g
+       id="g2257"
+       transform="translate(0.04201221)"
+       style="fill:#09f06c;fill-opacity:1">
+      <circle
+         style="fill:#09f06c;fill-opacity:1;stroke:#252525;stroke-width:0.465305;stroke-linecap:square;stroke-miterlimit:10.5;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000"
+         id="path285"
+         cx="16.162695"
+         cy="28.966835"
+         r="3.4822869" />
+      <circle
+         style="fill:#09f06c;fill-opacity:1;stroke:#252525;stroke-width:0.465305;stroke-linecap:square;stroke-miterlimit:10.5;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000"
+         id="path285-1"
+         cx="24.904602"
+         cy="28.951754"
+         r="3.4822869" />
+      <circle
+         style="fill:#09f06c;fill-opacity:1;stroke:#252525;stroke-width:0.465305;stroke-linecap:square;stroke-miterlimit:10.5;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000"
+         id="path285-4"
+         cx="33.753281"
+         cy="28.968405"
+         r="3.4822869" />
+      <circle
+         style="fill:#09f06c;fill-opacity:1;stroke:#252525;stroke-width:0.465305;stroke-linecap:square;stroke-miterlimit:10.5;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000"
+         id="path285-1-4"
+         cx="20.501373"
+         cy="36.62653"
+         r="3.4822869" />
+      <circle
+         style="fill:#09f06c;fill-opacity:1;stroke:#252525;stroke-width:0.465305;stroke-linecap:square;stroke-miterlimit:10.5;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000"
+         id="path285-4-8"
+         cx="29.320187"
+         cy="36.62468"
+         r="3.4822869" />
+      <circle
+         style="fill:#09f06c;fill-opacity:1;stroke:#252525;stroke-width:0.465305;stroke-linecap:square;stroke-miterlimit:10.5;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000"
+         id="path285-1-4-5"
+         cx="20.479044"
+         cy="21.147394"
+         r="3.4822869" />
+      <circle
+         style="fill:#09f06c;fill-opacity:1;stroke:#252525;stroke-width:0.465305;stroke-linecap:square;stroke-miterlimit:10.5;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000"
+         id="path285-4-8-1"
+         cx="29.353741"
+         cy="21.150328"
+         r="3.4822869" />
+      <circle
+         style="fill:#09f06c;fill-opacity:1;stroke:#252525;stroke-width:0.465305;stroke-linecap:square;stroke-miterlimit:10.5;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000"
+         id="path285-4-8-7"
+         cx="24.905346"
+         cy="44.25412"
+         r="3.4822869" />
+    </g>
+  </g>
+  <g
+     id="layer2">
+    <a
+       id="a2265"
+       xlink:href="grappe">
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.264583"
+         id="path2262"
+         d="m 25.481556,5.3681083 c 0.141059,0.2093062 0.326214,0.3948813 0.423167,0.6279296 0.503185,1.2093118 0.611542,2.1638285 0.637043,3.4955237 0.0241,1.2582624 -0.15631,3.1864244 -0.409913,4.4112314 -0.142481,0.688126 -0.379933,1.353114 -0.569899,2.02967 -0.616206,1.934653 -0.437076,1.048456 -0.648259,2.633753 0,0 0.650704,-0.349974 0.650704,-0.349974 v 0 c 0.589448,-1.640719 0.371528,-0.77027 0.615496,-2.620631 0.255994,-2.570509 0.09436,-1.216092 0.503829,-4.060949 0.09734,-0.904853 0.225048,-3.4745469 0.275709,-4.3919703 0.03449,-0.6247066 0.128118,-1.2488346 0.104719,-1.874057 -0.01003,-0.2680679 -0.135989,-0.5189872 -0.203993,-0.7784781 0,0 -1.378613,0.8779527 -1.378613,0.8779533 z" />
+    </a>
+  </g>
+</svg>

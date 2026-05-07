@@ -1,0 +1,41 @@
+/* css/admin_types.css */
+
+/* Styles pour les messages d'erreur et de succès */
+.error { 
+    color: #dc3545; /* Rouge vif */
+    font-weight: bold; 
+}
+.success { 
+    color: #28a745; /* Vert */
+    font-weight: bold; 
+}
+
+/* Styles pour la table d'affichage des types */
+.types-table {
+    width: 100%;
+    border-collapse: collapse; /* Bordures fusionnées */
+    margin-top: 20px;
+}
+.types-table th, .types-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+.types-table th {
+    background-color: #007BFF; /* Utilisation de la couleur bleue des boutons admin.css */
+    color: white;
+}
+
+/* Styles pour les liens d'action dans la table */
+.types-table .action-link-edit {
+    color: #FFC107; /* Jaune/Ambre pour Éditer */
+    text-decoration: none;
+}
+.types-table .action-link-delete {
+    color: #DC3545; /* Rouge pour Supprimer */
+    text-decoration: none;
+}
+.types-table .action-link-edit:hover, 
+.types-table .action-link-delete:hover {
+    text-decoration: underline;
+}

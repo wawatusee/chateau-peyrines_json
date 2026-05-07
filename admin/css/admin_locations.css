@@ -1,0 +1,51 @@
+/* css/admin_locations.css */
+
+/* Styles pour les messages d'erreur et de succès */
+.error { 
+    color: #dc3545; 
+    font-weight: bold; 
+}
+.success { 
+    color: #28a745; 
+    font-weight: bold; 
+}
+
+/* Styles pour la table d'affichage des lieux */
+.locations-table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 20px;
+    table-layout: fixed; 
+}
+.locations-table th, .locations-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    word-wrap: break-word;
+}
+.locations-table th {
+    background-color: #007BFF; 
+    color: white;
+}
+
+/* Styles spécifiques pour les colonnes */
+.locations-table th:nth-child(1), .locations-table td:nth-child(1) { width: 15%; } /* ID */
+.locations-table th:nth-child(2), .locations-table td:nth-child(2) { width: 30%; } /* Nom */
+.locations-table th:nth-child(3), .locations-table td:nth-child(3) { width: 15%; } /* Latitude */
+.locations-table th:nth-child(4), .locations-table td:nth-child(4) { width: 15%; } /* Longitude */
+.locations-table th:nth-child(5), .locations-table td:nth-child(5) { width: 25%; } /* Actions */
+
+
+/* Styles pour les liens d'action dans la table */
+.action-link-edit {
+    color: #FFC107; 
+    text-decoration: none;
+}
+.action-link-delete {
+    color: #DC3545; 
+    text-decoration: none;
+}
+.action-link-edit:hover, 
+.action-link-delete:hover {
+    text-decoration: underline;
+}

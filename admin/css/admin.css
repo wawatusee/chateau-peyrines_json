@@ -1,0 +1,123 @@
+/* admin.css
+Ce fichier définit le style de base de l'interface d'administration, notamment :
+
+Styles de base (body, h1): Fond gris clair, police Arial, titre centré.
+
+Conteneur principal (.admin-container): Largeur maximale de 1200px et centré.
+
+Navigation (.admin-nav): Liens bleus non soulignés, qui se soulignent au survol.
+
+Contenu (.admin-content): Fond blanc avec une bordure et des coins arrondis pour encadrer les éléments.
+
+Boutons (.admin-headers-btns): Boutons bleus avec texte blanc, pour probablement les actions principales dans l'interface.
+
+Sélecteur spécifique: Une règle pour une checkbox avec un attribut data-path particulier.
+*/
+
+/* css/admin.css */
+
+/* --- Réinitialisation et Conteneur de Base --- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.admin-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #007BFF;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* --- Navigation --- */
+.admin-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px 0;
+    display: flex;
+    background-color: #9da5ac;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.admin-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.admin-nav li a:hover {
+    background-color: #007BFF;
+}
+
+/* --- Boutons Généralistes (.admin-headers-btns) --- */
+.admin-headers-btns,
+.btn-secondary,
+.btn-action {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, opacity 0.3s;
+}
+
+.admin-headers-btns:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* --- Messages de Statut (Succès/Erreur) --- */
+/* Dans admin_tournees.css */
+/* Message de statut */
+.message {
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 4px;
+    font-weight: 500;
+    display: block;
+    /* Toujours affiché, mais peut être vide */
+    min-height: 20px;
+    /* Espace réservé même si vide */
+}
+
+.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
