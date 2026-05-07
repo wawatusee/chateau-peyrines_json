@@ -355,9 +355,9 @@ left: 50%;
   background-color: var(--main-clear-color);
 }
 
-/* Pour le corps du tableau (les villes) */
-.tourtable tbody td:nth-child(2) {
-    text-transform: uppercase !important;
+/* Force la 2ème colonne en majuscules (en-tête et corps) */
+.tourtable tr > *:nth-child(2+1) {
+  text-transform: uppercase;
 }
 /*End Tableau dates*/
 /**********************/
