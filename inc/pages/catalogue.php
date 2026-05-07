@@ -3,7 +3,7 @@
         <h2>Catalogue</h2>
         <section id="vins-tarifs">
         <h3>Tarifs des vins</h3>
-        <p>Téléchargement tarifs 2023-2024 <a href="/public/docs/peyrines-tarifs-expeditions-2025-26.pdf">tarifs expéditions-2025-2026</a></p>
+        <p>Téléchargement tarifs 2025-2026 <a href="/public/docs/peyrines-tarifs-expeditions-2025-26.pdf">tarifs expéditions-2025-2026</a></p>
         <?php
         require_once("../model/catalog_model.php");
         //Chargement du catalogue depuis la base de données
